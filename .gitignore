@@ -1,11 +1,2 @@
-
-/controlled-experiments/datasets
-/controlled-experiments/predictions
-
-/data-generator/newest-data-base
-
-*.DS_Store
-
-*.xlsx
-
-*.csv
+venv/ 
+.gitignore
