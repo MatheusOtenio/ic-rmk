@@ -1,4 +1,4 @@
-#!C:\Programação\IC\student-dropout-prediction-main\venv\Scripts\python.exe
+#!C:\Users\matel\Documents\ic-evasao-escolar\venv\Scripts\python.exe
 from __future__ import absolute_import, division, print_function
 
 from PIL import Image

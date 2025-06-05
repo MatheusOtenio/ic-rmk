@@ -1,5 +1,0 @@
-Dataset,corr_threshold,const_threshold,seed,class_distribution,dropout,regular,Model,Accuracy,Balanced Accuracy,f1-score,recall,precision,CM - True Positive,CM - False Negative,CM - False Positive,CM - True Negative
-dados_atuais_listagem_nominal.csv,0.95,0.2,411,"target
-0    3871
-1    2575
-Name: count, dtype: int64",2575,3871,neigh,0.5788085634502017,0.5534269010541417,0.4476093591047813,0.42718446601941745,0.4700854700854701,2631,1240,1475,1100
