@@ -1,2 +1,15 @@
 venv/ 
 .gitignore
+*.csv
+# Arquivos e pastas geradas pelo Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv
