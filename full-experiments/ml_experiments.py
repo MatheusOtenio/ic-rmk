@@ -132,104 +132,121 @@ def train_test(x, y, dataset_name, algorithm, corr_threshold, const_threshold, s
 
     classifier = model_mapping[algorithm]
 
-    cv = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=seed)
-    y_pred = cross_val_predict(classifier, x, y, cv=cv)
-    classifier.fit(x, y)
+    try:
+        cv = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=seed)
+        y_pred = cross_val_predict(classifier, x, y, cv=cv)
+        classifier.fit(x, y)
 
-    predict_df = pd.DataFrame({'True_Label': y, 'Predicted_Label': y_pred})
+        predict_df = pd.DataFrame({'True_Label': y, 'Predicted_Label': y_pred})
 
-    if not os.path.exists('predictions'):
-        os.makedirs('predictions') 
-    predict_df.to_csv(f'predictions/predict-{dataset_name}-{algorithm}-{corr_threshold}-{const_threshold}-{seed}.csv', index=False)
+        if not os.path.exists('predictions'):
+            os.makedirs('predictions') 
+        predict_df.to_csv(f'predictions/predict-{dataset_name}-{algorithm}-{corr_threshold}-{const_threshold}-{seed}.csv', index=False)
 
-    acc = accuracy_score(y, y_pred)
-    bac = balanced_accuracy_score(y, y_pred)
-    f1 = f1_score(y, y_pred)
-    recall = recall_score(y, y_pred)
-    precision = precision_score(y, y_pred)  
+        acc = accuracy_score(y, y_pred)
+        bac = balanced_accuracy_score(y, y_pred)
+        f1 = f1_score(y, y_pred)
+        recall = recall_score(y, y_pred)
+        precision = precision_score(y, y_pred)  
 
-    cm = confusion_matrix(y, y_pred)
-    
-    results['Model'].append(algorithm)
-    results['Accuracy'].append(acc)
-    results['Balanced Accuracy'].append(bac)
-    results['f1-score'].append(f1)
-    results['recall'].append(recall)
-    results['precision'].append(precision)
+        cm = confusion_matrix(y, y_pred)
+        
+        results['Model'].append(algorithm)
+        results['Accuracy'].append(acc)
+        results['Balanced Accuracy'].append(bac)
+        results['f1-score'].append(f1)
+        results['recall'].append(recall)
+        results['precision'].append(precision)
 
-    # Verifique se a matriz de confusão tem o tamanho esperado (2x2)
-    if cm.shape == (2, 2):
-        results['CM - True Positive'].append(cm[0][0])
-        results['CM - False Negative'].append(cm[0][1])
-        results['CM - False Positive'].append(cm[1][0])
-        results['CM - True Negative'].append(cm[1][1])
-    else:
-        results['CM - True Positive'].append(None)
-        results['CM - False Negative'].append(None)
-        results['CM - False Positive'].append(None)
-        results['CM - True Negative'].append(None)
+        # Verifique se a matriz de confusão tem o tamanho esperado (2x2)
+        if cm.shape == (2, 2):
+            results['CM - True Positive'].append(cm[0][0])
+            results['CM - False Negative'].append(cm[0][1])
+            results['CM - False Positive'].append(cm[1][0])
+            results['CM - True Negative'].append(cm[1][1])
+        else:
+            results['CM - True Positive'].append(None)
+            results['CM - False Negative'].append(None)
+            results['CM - False Positive'].append(None)
+            results['CM - True Negative'].append(None)
 
-    features = x.columns.tolist()
+        features = x.columns.tolist()
 
-    # if f1 > 0.9:
-    #     if algorithm == 'rf':
-    #         plot_rf(classifier, features, dataset_name, algorithm, corr_threshold, const_threshold, seed)
-    #     elif algorithm == 'dt':
-    #         plot_dt(classifier, features, dataset_name, algorithm, corr_threshold, const_threshold, seed)
+        # if f1 > 0.9:
+        #     if algorithm == 'rf':
+        #         plot_rf(classifier, features, dataset_name, algorithm, corr_threshold, const_threshold, seed)
+        #     elif algorithm == 'dt':
+        #         plot_dt(classifier, features, dataset_name, algorithm, corr_threshold, const_threshold, seed)
 
-    #     if cm.shape == (2, 2):
-    #         plot_cm(cm,dataset_name,algorithm,corr_threshold,const_threshold,seed)   
+        #     if cm.shape == (2, 2):
+        #         plot_cm(cm,dataset_name,algorithm,corr_threshold,const_threshold,seed)   
 
-    infos = {
-        'Dataset': [dataset_name], 
-        'corr_threshold': [corr_threshold], 
-        'const_threshold': [const_threshold], 
-        'seed': [seed], 
-        'class_distribution': [y.value_counts()],
-        'dropout': [y.value_counts().get(1, 0)],  
-        'regular': [y.value_counts().get(0, 0)]   
-    }
+        infos = {
+            'Dataset': [dataset_name], 
+            'corr_threshold': [corr_threshold], 
+            'const_threshold': [const_threshold], 
+            'seed': [seed], 
+            'class_distribution': [y.value_counts()],
+            'dropout': [y.value_counts().get(1, 0)],  
+            'regular': [y.value_counts().get(0, 0)]   
+        }
 
-    df_temp1 = pd.DataFrame(infos)
-    df_temp2 = pd.DataFrame(results)
-    df_temp1 = df_temp1.reindex(df_temp2.index)
+        df_temp1 = pd.DataFrame(infos)
+        df_temp2 = pd.DataFrame(results)
+        df_temp1 = df_temp1.reindex(df_temp2.index)
 
-    df_results = pd.concat([df_temp1, df_temp2], axis=1)
+        df_results = pd.concat([df_temp1, df_temp2], axis=1)
 
-    return df_results
+        return df_results
+    except Exception as e:
+        # Capturar e propagar qualquer exceção que ocorra durante o treinamento
+        print(f"Erro no train_test para {dataset_name}, {algorithm}, {corr_threshold}, {const_threshold}, {seed}: {str(e)}")
+        raise e
 
 
 def execute(dataset_name,algorithm,corr_threshold,const_threshold,seed,execution):
-    print(f'Execução numero {execution}')
+    try:
+        print(f'Execução numero {execution}')
 
-    data = pd.read_csv(f'../datasets/{dataset_name}')
+        data = pd.read_csv(f'../datasets/{dataset_name}')
 
-    # Cria a coluna target a partir de "Situação atual"
-    data['target'] = data['Situação atual'].apply(lambda x: 1 if x == 'Desistente' else 0)
+        # Verifica se a coluna "Situação atual" existe no dataset
+        if "Situação atual" not in data.columns:
+            raise ValueError(f"Coluna 'Situação atual' não encontrada no dataset {dataset_name}")
 
-    y = data['target']
-    data = pre_process(data,dataset_name)
+        # Cria a coluna target a partir de "Situação atual"
+        data['target'] = data['Situação atual'].apply(lambda x: 1 if x == 'Desistente' else 0)
 
-    features = data.columns.tolist()
-    features.remove('target')
+        y = data['target']
+        data = pre_process(data,dataset_name)
 
-    x = data[features]
+        features = data.columns.tolist()
+        if 'target' not in features:
+            raise ValueError(f"Coluna 'target' não encontrada após pré-processamento no dataset {dataset_name}")
+            
+        features.remove('target')
 
-    data = const_remove(x,const_threshold)
+        x = data[features]
 
-    data = imputation(data)
+        data = const_remove(x,const_threshold)
 
-    # Removendo novamente features constantes após imputação
-    data = const_remove(data,const_threshold)
+        data = imputation(data)
 
-    data = correlation(data,corr_threshold)
+        # Removendo novamente features constantes após imputação
+        data = const_remove(data,const_threshold)
 
-    results = train_test(data,y,dataset_name,algorithm,corr_threshold,const_threshold,seed)
+        data = correlation(data,corr_threshold)
 
-    if not os.path.exists('results'):
-        os.makedirs('results') 
-    results.to_csv(f'results/resultados-{dataset_name}-{algorithm}-{corr_threshold}-{const_threshold}-{seed}.csv', index=False)
+        results = train_test(data,y,dataset_name,algorithm,corr_threshold,const_threshold,seed)
 
-    return results
+        if not os.path.exists('results'):
+            os.makedirs('results') 
+        results.to_csv(f'results/resultados-{dataset_name}-{algorithm}-{corr_threshold}-{const_threshold}-{seed}.csv', index=False)
+
+        return results
+    except Exception as e:
+        # Capturar e propagar qualquer exceção que ocorra durante a execução
+        print(f"Erro na execução {execution} para {dataset_name}, {algorithm}, {corr_threshold}, {const_threshold}, {seed}: {str(e)}")
+        raise e
 
 #execute('data_ap_Reg_Desis.csv', 'rf', 0.8, 0.05, 145,1)

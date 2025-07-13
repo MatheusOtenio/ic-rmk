@@ -1,5 +1,0 @@
-Dataset,corr_threshold,const_threshold,seed,class_distribution,dropout,regular,Model,Accuracy,Balanced Accuracy,f1-score,recall,precision,CM - True Positive,CM - False Negative,CM - False Positive,CM - True Negative
-full-dv-data.csv,0.95,0.15,278,"target
-0    3871
-1    2575
-Name: count, dtype: int64",2575,3871,nb,0.8115110145826869,0.810819260972178,0.7738693467336684,0.8073786407766991,0.7430307362401716,3152,719,496,2079
