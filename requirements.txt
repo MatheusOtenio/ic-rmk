@@ -1,0 +1,18 @@
+# Requisitos para o Sistema de Predição de Evasão Universitária
+
+# Bibliotecas de manipulação de dados
+pandas>=1.0.0
+numpy>=1.18.0
+
+# Bibliotecas de machine learning
+scikit-learn>=0.22.0
+
+# Bibliotecas de visualização
+matplotlib>=3.1.0
+seaborn>=0.10.0
+
+# Bibliotecas de configuração
+pyyaml>=5.1.0
+
+# Bibliotecas de utilidades
+joblib>=0.14.0
