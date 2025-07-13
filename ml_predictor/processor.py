@@ -50,6 +50,11 @@ class DataProcessor:
             # Extrai o nome do dataset do caminho
             dataset_name = os.path.basename(dataset_path).replace('.csv', '')
             
+            # Verifica se a coluna "Situação atual" existe no dataset e cria a coluna target
+            if "Situação atual" in data.columns and 'target' not in data.columns:
+                self.logger.info(f"Criando coluna 'target' a partir de 'Situação atual'")
+                data['target'] = data['Situação atual'].apply(lambda x: 1 if x == 'Desistente' else 0)
+            
             self.logger.info(f"Dataset carregado: {dataset_name} com {data.shape[0]} amostras e {data.shape[1]} colunas")
             return data, dataset_name
         

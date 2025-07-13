@@ -1,0 +1,107 @@
+2025-07-13 13:42:52,390 - ml_predictor - INFO - Iniciando execução de experimentos
+2025-07-13 13:42:52,392 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 13:42:52,392 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 13:42:52,395 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 13:42:52,395 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 13:42:52,396 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 13:42:52,396 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 13:42:52,396 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 13:42:52,396 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 13:42:52,440 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 13:42:52,440 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 13:42:52,443 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 13:42:52,443 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 13:42:53,499 - ml_predictor - INFO - Carregando dataset: datasets/full-dv-data.csv
+2025-07-13 13:42:53,499 - ml_predictor - INFO - Carregando dataset: datasets/full-dv-data.csv
+2025-07-13 13:42:53,563 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 13:42:53,563 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 13:42:53,566 - ml_predictor - INFO - Dataset carregado: full-dv-data com 6446 amostras e 56 colunas
+2025-07-13 13:42:53,566 - ml_predictor - INFO - Dataset carregado: full-dv-data com 6446 amostras e 56 colunas
+2025-07-13 13:42:53,675 - ml_predictor - INFO - Total de 1280 experimentos a serem executados
+2025-07-13 13:42:53,675 - ml_predictor - INFO - Total de 1280 experimentos a serem executados
+2025-07-13 13:42:53,676 - ml_predictor - INFO - Executando experimentos em paralelo com 11 processos
+2025-07-13 13:42:53,676 - ml_predictor - INFO - Executando experimentos em paralelo com 11 processos
+2025-07-13 13:50:20,560 - ml_predictor - INFO - Experimentos concluídos em 448.16 segundos. 1280 bem-sucedidos, 0 com erro.
+2025-07-13 13:50:20,560 - ml_predictor - INFO - Experimentos concluídos em 448.16 segundos. 1280 bem-sucedidos, 0 com erro.
+2025-07-13 13:50:20,561 - ml_predictor - INFO - Total de 1280 experimentos concluídos com sucesso
+2025-07-13 13:50:20,561 - ml_predictor - INFO - Total de 1280 experimentos concluídos com sucesso
+2025-07-13 13:50:57,073 - ml_predictor - INFO - Iniciando execução de experimentos
+2025-07-13 13:50:57,075 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 13:50:57,075 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 13:50:57,077 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 13:50:57,077 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 13:50:57,077 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 13:50:57,077 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 13:50:57,077 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 13:50:57,077 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 13:50:57,122 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 13:50:57,122 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 13:50:57,125 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 13:50:57,125 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 13:50:57,485 - ml_predictor - INFO - Carregando dataset: datasets/full-dv-data.csv
+2025-07-13 13:50:57,485 - ml_predictor - INFO - Carregando dataset: datasets/full-dv-data.csv
+2025-07-13 13:50:57,522 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 13:50:57,522 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 13:50:57,525 - ml_predictor - INFO - Dataset carregado: full-dv-data com 6446 amostras e 56 colunas
+2025-07-13 13:50:57,525 - ml_predictor - INFO - Dataset carregado: full-dv-data com 6446 amostras e 56 colunas
+2025-07-13 13:50:57,622 - ml_predictor - INFO - Total de 1280 experimentos a serem executados
+2025-07-13 13:50:57,622 - ml_predictor - INFO - Total de 1280 experimentos a serem executados
+2025-07-13 13:50:57,622 - ml_predictor - INFO - Executando experimentos em paralelo com 11 processos
+2025-07-13 13:50:57,622 - ml_predictor - INFO - Executando experimentos em paralelo com 11 processos
+2025-07-13 13:58:39,426 - ml_predictor - INFO - Experimentos concluídos em 462.35 segundos. 1280 bem-sucedidos, 0 com erro.
+2025-07-13 13:58:39,426 - ml_predictor - INFO - Experimentos concluídos em 462.35 segundos. 1280 bem-sucedidos, 0 com erro.
+2025-07-13 13:58:39,429 - ml_predictor - INFO - Total de 1280 experimentos concluídos com sucesso
+2025-07-13 13:58:39,429 - ml_predictor - INFO - Total de 1280 experimentos concluídos com sucesso
+2025-07-13 13:58:39,432 - ml_predictor - INFO - Média de acurácia: 0.8669
+2025-07-13 13:58:39,432 - ml_predictor - INFO - Média de acurácia: 0.8669
+2025-07-13 13:58:39,432 - ml_predictor - INFO - Média de acurácia balanceada: 0.8584
+2025-07-13 13:58:39,432 - ml_predictor - INFO - Média de acurácia balanceada: 0.8584
+2025-07-13 13:58:39,433 - ml_predictor - INFO - Média de F1-score: 0.8240
+2025-07-13 13:58:39,433 - ml_predictor - INFO - Média de F1-score: 0.8240
+2025-07-13 13:58:39,434 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 13:58:39,434 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 13:58:39,435 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 13:58:39,435 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 13:58:39,435 - ml_predictor - INFO -   Algoritmo: Decision Tree
+2025-07-13 13:58:39,435 - ml_predictor - INFO -   Algoritmo: Decision Tree
+2025-07-13 13:58:39,436 - ml_predictor - INFO -   Threshold de correlação: 0.8
+2025-07-13 13:58:39,436 - ml_predictor - INFO -   Threshold de correlação: 0.8
+2025-07-13 13:58:39,436 - ml_predictor - INFO -   Threshold de constantes: 0.05
+2025-07-13 13:58:39,436 - ml_predictor - INFO -   Threshold de constantes: 0.05
+2025-07-13 13:58:39,437 - ml_predictor - INFO -   Seed: 145
+2025-07-13 13:58:39,437 - ml_predictor - INFO -   Seed: 145
+2025-07-13 13:58:39,437 - ml_predictor - INFO -   Acurácia: 0.9998
+2025-07-13 13:58:39,437 - ml_predictor - INFO -   Acurácia: 0.9998
+2025-07-13 13:58:39,438 - ml_predictor - INFO -   Acurácia balanceada: 0.9999
+2025-07-13 13:58:39,438 - ml_predictor - INFO -   Acurácia balanceada: 0.9999
+2025-07-13 13:58:39,438 - ml_predictor - INFO -   F1-score: 0.9998
+2025-07-13 13:58:39,438 - ml_predictor - INFO -   F1-score: 0.9998
+2025-07-13 13:58:39,439 - ml_predictor - INFO -   Precisão: 0.9996
+2025-07-13 13:58:39,439 - ml_predictor - INFO -   Precisão: 0.9996
+2025-07-13 13:58:39,439 - ml_predictor - INFO -   Recall: 1.0000
+2025-07-13 13:58:39,439 - ml_predictor - INFO -   Recall: 1.0000
+2025-07-13 13:58:39,440 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 13:58:39,440 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 13:59:27,168 - ml_predictor - INFO - Iniciando execução de experimentos
+2025-07-13 13:59:27,170 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 13:59:27,170 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 13:59:27,171 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 13:59:27,171 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 13:59:27,172 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 13:59:27,172 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 13:59:27,172 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 13:59:27,172 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 13:59:27,212 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 13:59:27,212 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 13:59:27,216 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 13:59:27,216 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 13:59:27,579 - ml_predictor - INFO - Carregando dataset: datasets/full-dv-data.csv
+2025-07-13 13:59:27,579 - ml_predictor - INFO - Carregando dataset: datasets/full-dv-data.csv
+2025-07-13 13:59:27,614 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 13:59:27,614 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 13:59:27,616 - ml_predictor - INFO - Dataset carregado: full-dv-data com 6446 amostras e 56 colunas
+2025-07-13 13:59:27,616 - ml_predictor - INFO - Dataset carregado: full-dv-data com 6446 amostras e 56 colunas
+2025-07-13 13:59:27,712 - ml_predictor - INFO - Total de 1280 experimentos a serem executados
+2025-07-13 13:59:27,712 - ml_predictor - INFO - Total de 1280 experimentos a serem executados
+2025-07-13 13:59:27,712 - ml_predictor - INFO - Executando experimentos em paralelo com 11 processos
+2025-07-13 13:59:27,712 - ml_predictor - INFO - Executando experimentos em paralelo com 11 processos
