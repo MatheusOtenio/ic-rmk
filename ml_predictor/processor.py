@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import logging
 
 from .config import Config
-from .utils import pre_process, const_remove, imputation, correlation_removal, plot_confusion_matrix
+from .utils import pre_process, const_remove, imputation, correlation_removal, plot_confusion_matrix, balance_classes
 
 class DataProcessor:
     """Classe responsável pelo processamento de dados e execução de experimentos"""
@@ -154,9 +154,14 @@ class DataProcessor:
             
             # Verifica se a coluna target existe
             if 'target' not in data.columns:
-                error_msg = f"Coluna 'target' não encontrada no dataset {dataset_name}"
-                self.logger.error(error_msg)
-                raise ValueError(error_msg)
+                # Tenta criar a coluna target a partir de 'Situação atual'
+                if "Situação atual" in data.columns:
+                    self.logger.info(f"Criando coluna 'target' a partir de 'Situação atual'")
+                    data['target'] = data['Situação atual'].apply(lambda x: 1 if x == 'Desistente' else 0)
+                else:
+                    error_msg = f"Coluna 'target' ou 'Situação atual' não encontrada no dataset {dataset_name}"
+                    self.logger.error(error_msg)
+                    raise ValueError(error_msg)
             
             # Separa features e target
             y = data['target']
@@ -171,6 +176,18 @@ class DataProcessor:
             # Imputação
             X = imputation(X, self.logger)
             
+            # Normalização de features (opcional)
+            if Config.NORMALIZE_FEATURES:
+                from sklearn.preprocessing import StandardScaler
+                try:
+                    numeric_cols = X.select_dtypes(include=['number']).columns
+                    if len(numeric_cols) > 0:
+                        scaler = StandardScaler()
+                        X[numeric_cols] = scaler.fit_transform(X[numeric_cols])
+                        self.logger.info(f"Features numéricas normalizadas: {len(numeric_cols)}")
+                except Exception as e:
+                    self.logger.warning(f"Erro na normalização de features: {str(e)}")
+            
             # Remoção por correlação
             X = correlation_removal(X, corr_threshold, self.logger)
             
@@ -179,6 +196,9 @@ class DataProcessor:
                 error_msg = f"Nenhuma feature restante após o processamento para {dataset_name}"
                 self.logger.error(error_msg)
                 raise ValueError(error_msg)
+            
+            # Balanceamento de classes (se configurado)
+            X, y = balance_classes(X, y, self.logger)
             
             # Treina e testa o modelo
             results, infos = self.train_test(X, y, algorithm, seed)
@@ -236,6 +256,10 @@ class DataProcessor:
     
     def _plot_decision_tree(self, tree_model, X, dataset_name, corr_threshold, const_threshold, seed):
         """Plota a árvore de decisão"""
+        # Verifica se a geração de plots está habilitada
+        if not Config.GENERATE_PLOTS or not Config.PLOT_DECISION_TREE or not Config.SAVE_INDIVIDUAL_PLOTS:
+            return
+            
         try:
             output_dir = Config.DECISION_TREE_DIR
             os.makedirs(output_dir, exist_ok=True)
@@ -244,9 +268,17 @@ class DataProcessor:
             plot_tree(tree_model, filled=True, feature_names=X.columns, class_names=['0', '1'], rounded=True)
             plt.title(f'Árvore de Decisão - {dataset_name}')
             
-            # Salva o gráfico
-            filename = f'dt-{dataset_name}-{corr_threshold}-{const_threshold}-{seed}.pdf'
-            plt.savefig(f'{output_dir}/{filename}', format='pdf')
+            # Salva o gráfico nos formatos configurados
+            base_filename = f'dt-{dataset_name}-{corr_threshold}-{const_threshold}-{seed}'
+            
+            for fmt, enabled in Config.OUTPUT_FORMATS.items():
+                if enabled and fmt in ['pdf', 'png', 'svg']:
+                    filename = f'{base_filename}.{fmt}'
+                    if fmt in ['png', 'jpg']:
+                        plt.savefig(f'{output_dir}/{filename}', format=fmt, dpi=Config.PLOT_DPI)
+                    else:
+                        plt.savefig(f'{output_dir}/{filename}', format=fmt)
+            
             plt.close()
             
         except Exception as e:
@@ -254,6 +286,10 @@ class DataProcessor:
     
     def _plot_feature_importance(self, rf_model, X, dataset_name, corr_threshold, const_threshold, seed):
         """Plota a importância das features para Random Forest"""
+        # Verifica se a geração de plots está habilitada
+        if not Config.GENERATE_PLOTS or not Config.PLOT_FEATURE_IMPORTANCE or not Config.SAVE_INDIVIDUAL_PLOTS:
+            return
+            
         try:
             output_dir = Config.FEATURE_IMPORTANCE_DIR
             os.makedirs(output_dir, exist_ok=True)
@@ -271,9 +307,17 @@ class DataProcessor:
             plt.xticks(range(n_features), X.columns[indices[:n_features]], rotation=90)
             plt.tight_layout()
             
-            # Salva o gráfico
-            filename = f'fi-{dataset_name}-{corr_threshold}-{const_threshold}-{seed}.pdf'
-            plt.savefig(f'{output_dir}/{filename}', format='pdf')
+            # Salva o gráfico nos formatos configurados
+            base_filename = f'fi-{dataset_name}-{corr_threshold}-{const_threshold}-{seed}'
+            
+            for fmt, enabled in Config.OUTPUT_FORMATS.items():
+                if enabled and fmt in ['pdf', 'png', 'svg']:
+                    filename = f'{base_filename}.{fmt}'
+                    if fmt in ['png', 'jpg']:
+                        plt.savefig(f'{output_dir}/{filename}', format=fmt, dpi=Config.PLOT_DPI)
+                    else:
+                        plt.savefig(f'{output_dir}/{filename}', format=fmt)
+            
             plt.close()
             
         except Exception as e:

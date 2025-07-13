@@ -134,7 +134,21 @@ def main():
         logger.info(f"  Recall: {best_result['results']['recall']:.4f}")
         
         # Salva os resultados em arquivo
-        predictor.save_results(results)
+        csv_path, json_path, report_paths = predictor.save_results(results)
+        
+        # Informa onde os resultados foram salvos
+        output_paths = []
+        if csv_path:
+            output_paths.append(csv_path)
+        if json_path:
+            output_paths.append(json_path)
+        if report_paths:
+            output_paths.extend(report_paths)
+            
+        if output_paths:
+            logger.info("Arquivos gerados:")
+            for path in output_paths:
+                logger.info(f"  - {path}")
     
     logger.info("Execução concluída. Resultados salvos em: " + os.path.join(Config.RESULTS_DIR, 'experiments'))
 

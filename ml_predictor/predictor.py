@@ -12,6 +12,7 @@ from pathlib import Path
 from .config import Config
 from .utils import setup_logging, create_directory_structure, validate_dataset, plot_class_distribution
 from .processor import DataProcessor
+from .report import ReportGenerator
 
 class StudentDropoutPredictor:
     """Classe principal para predição de evasão de estudantes universitários"""
@@ -35,6 +36,9 @@ class StudentDropoutPredictor:
         
         # Inicializa o processador de dados
         self.processor = DataProcessor(logger=self.logger)
+        
+        # Inicializa o gerador de relatórios
+        self.report_generator = ReportGenerator(logger=self.logger)
     
     def _load_custom_config(self, config):
         """Carrega configurações personalizadas"""
@@ -243,10 +247,18 @@ class StudentDropoutPredictor:
             return error_result
     
     def save_results(self, results, output_dir=None):
-        """Salva os resultados dos experimentos"""
+        """Salva os resultados dos experimentos
+        
+        Args:
+            results: Lista de resultados de experimentos
+            output_dir: Diretório de saída (opcional)
+            
+        Returns:
+            Tuple: Caminhos para os arquivos CSV e JSON com os resultados
+        """
         if not results:
             self.logger.warning("Nenhum resultado para salvar")
-            return
+            return None, None
         
         # Define o diretório de saída
         if output_dir is None:
@@ -276,7 +288,7 @@ class StudentDropoutPredictor:
                 'seed': experiment_config.get('seed', 0),
                 'accuracy': metrics.get('accuracy', 0),
                 'balanced_accuracy': metrics.get('balanced_accuracy', 0),
-                'f1_score': metrics.get('f1_score', 0),
+                'f1': metrics.get('f1_score', 0),  # Renomeado para compatibilidade com o relatório
                 'precision': metrics.get('precision', 0),
                 'recall': metrics.get('recall', 0),
                 'experiment_id': result.get('experiment_id', 'unknown')
@@ -284,52 +296,98 @@ class StudentDropoutPredictor:
             
             csv_results.append(csv_row)
         
-        # Salva o CSV
-        csv_path = os.path.join(output_dir, f"results_{timestamp}.csv")
-        pd.DataFrame(csv_results).to_csv(csv_path, index=False)
-        self.logger.info(f"Resultados salvos em {csv_path}")
+        # Cria o DataFrame de resultados
+        results_df = pd.DataFrame(csv_results)
         
-        # Salva as predições
-        predictions_dir = Config.PREDICTIONS_DIR
-        os.makedirs(predictions_dir, exist_ok=True)
+        # Salva o CSV se configurado
+        csv_path = None
+        if Config.OUTPUT_FORMATS.get('csv', False):
+            csv_path = os.path.join(output_dir, f"results_{timestamp}.csv")
+            results_df.to_csv(csv_path, index=False)
+            self.logger.info(f"Resultados salvos em CSV: {csv_path}")
         
-        for result in results:
-            # Extrai informações
-            dataset_name = result.get('dataset_info', {}).get('name', 'unknown')
-            algorithm = result.get('experiment_config', {}).get('algorithm', 'unknown')
-            corr_threshold = result.get('experiment_config', {}).get('corr_threshold', 0)
-            const_threshold = result.get('experiment_config', {}).get('const_threshold', 0)
-            seed = result.get('experiment_config', {}).get('seed', 0)
+        # Salva as predições se configurado
+        if Config.SAVE_PREDICTIONS:
+            predictions_dir = Config.PREDICTIONS_DIR
+            os.makedirs(predictions_dir, exist_ok=True)
             
-            # Extrai predições
-            predictions = result.get('predictions', {})
-            true_labels = predictions.get('true_labels', [])
-            predicted_labels = predictions.get('predicted_labels', [])
-            probabilities = predictions.get('probabilities', [])
-            
-            # Cria DataFrame de predições
-            pred_df = pd.DataFrame({
-                'true_label': true_labels,
-                'predicted_label': predicted_labels
-            })
-            
-            # Adiciona probabilidades se disponíveis
-            if probabilities:
-                pred_df['probability'] = probabilities
-            
-            # Salva as predições
-            pred_filename = f"pred_{dataset_name}_{algorithm}_{corr_threshold}_{const_threshold}_{seed}.csv"
-            pred_path = os.path.join(predictions_dir, pred_filename)
-            pred_df.to_csv(pred_path, index=False)
+            for result in results:
+                # Extrai informações
+                dataset_name = result.get('dataset_info', {}).get('name', 'unknown')
+                algorithm = result.get('experiment_config', {}).get('algorithm', 'unknown')
+                corr_threshold = result.get('experiment_config', {}).get('corr_threshold', 0)
+                const_threshold = result.get('experiment_config', {}).get('const_threshold', 0)
+                seed = result.get('experiment_config', {}).get('seed', 0)
+                
+                # Extrai predições
+                predictions = result.get('predictions', {})
+                true_labels = predictions.get('true_labels', [])
+                predicted_labels = predictions.get('predicted_labels', [])
+                probabilities = predictions.get('probabilities', [])
+                
+                # Cria DataFrame de predições
+                pred_df = pd.DataFrame({
+                    'true_label': true_labels,
+                    'predicted_label': predicted_labels
+                })
+                
+                # Adiciona probabilidades se disponíveis
+                if probabilities:
+                    pred_df['probability'] = probabilities
+                
+                # Salva as predições
+                pred_filename = f"pred_{dataset_name}_{algorithm}_{corr_threshold}_{const_threshold}_{seed}.csv"
+                pred_path = os.path.join(predictions_dir, pred_filename)
+                pred_df.to_csv(pred_path, index=False)
+                self.logger.debug(f"Predições salvas em: {pred_path}")
         
-        # Salva os resultados completos em JSON
-        json_path = os.path.join(output_dir, f"full_results_{timestamp}.json")
-        with open(json_path, 'w') as f:
-            json.dump(results, f, indent=2)
+        # Função para converter tipos numpy para tipos Python nativos
+        def convert_numpy_types(obj):
+            if isinstance(obj, (np.integer, np.int64, np.int32)):
+                return int(obj)
+            elif isinstance(obj, (np.floating, np.float64, np.float32)):
+                return float(obj)
+            elif isinstance(obj, (np.ndarray,)):
+                return obj.tolist()
+            elif isinstance(obj, (np.bool_)):
+                return bool(obj)
+            elif isinstance(obj, dict):
+                return {k: convert_numpy_types(v) for k, v in obj.items()}
+            elif isinstance(obj, list):
+                return [convert_numpy_types(i) for i in obj]
+            else:
+                return obj
         
-        self.logger.info(f"Resultados completos salvos em {json_path}")
+        # Salva os resultados completos em JSON se configurado
+        json_path = None
+        if Config.OUTPUT_FORMATS.get('json', False):
+            # Converte tipos numpy antes de salvar em JSON
+            results_json = convert_numpy_types(results)
+            
+            json_path = os.path.join(output_dir, f"full_results_{timestamp}.json")
+            with open(json_path, 'w') as f:
+                json.dump(results_json, f, indent=2)
+            
+            self.logger.info(f"Resultados completos salvos em JSON: {json_path}")
         
-        return csv_path, json_path
+        # Gera relatório consolidado se configurado
+        report_paths = []
+        if Config.GENERATE_CONSOLIDATED_REPORT:
+            # Gera o relatório visual em formatos configurados
+            consolidated_report_paths = self.report_generator.generate_consolidated_report(results_df)
+            if consolidated_report_paths:
+                report_paths.extend(consolidated_report_paths)
+                for path in consolidated_report_paths:
+                    self.logger.info(f"Relatório consolidado gerado em {path}")
+            
+            # Gera o resumo em JSON se configurado
+            summary_paths = self.report_generator.generate_experiment_summary(results_df)
+            if summary_paths:
+                report_paths.extend(summary_paths)
+                for path in summary_paths:
+                    self.logger.info(f"Resumo dos experimentos gerado em {path}")
+        
+        return csv_path, json_path, report_paths
     
     def _save_errors(self, errors):
         """Salva os erros encontrados durante os experimentos"""
@@ -343,9 +401,20 @@ class StudentDropoutPredictor:
         # Gera um timestamp para o nome do arquivo
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
         
-        # Salva os erros em formato CSV
-        errors_df = pd.DataFrame(errors)
-        errors_path = os.path.join(logs_dir, f"errors_{timestamp}.csv")
-        errors_df.to_csv(errors_path, index=False)
+        # Salva os erros em formato CSV se configurado
+        errors_path = None
+        if Config.OUTPUT_FORMATS.get('csv', False):
+            errors_df = pd.DataFrame(errors)
+            errors_path = os.path.join(logs_dir, f"errors_{timestamp}.csv")
+            errors_df.to_csv(errors_path, index=False)
+            self.logger.info(f"Erros salvos em CSV: {errors_path}")
         
-        self.logger.info(f"{len(errors)} erros salvos em {errors_path}")
+        # Salva os erros em formato JSON se configurado
+        errors_json_path = None
+        if Config.OUTPUT_FORMATS.get('json', False):
+            errors_json_path = os.path.join(logs_dir, f"errors_{timestamp}.json")
+            with open(errors_json_path, 'w') as f:
+                json.dump(errors, f, indent=2)
+            self.logger.info(f"Erros salvos em JSON: {errors_json_path}")
+        
+        self.logger.info(f"{len(errors)} erros encontrados durante os experimentos")

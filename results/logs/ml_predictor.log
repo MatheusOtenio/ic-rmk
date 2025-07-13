@@ -105,3 +105,878 @@
 2025-07-13 13:59:27,712 - ml_predictor - INFO - Total de 1280 experimentos a serem executados
 2025-07-13 13:59:27,712 - ml_predictor - INFO - Executando experimentos em paralelo com 11 processos
 2025-07-13 13:59:27,712 - ml_predictor - INFO - Executando experimentos em paralelo com 11 processos
+2025-07-13 14:46:29,831 - ml_predictor - INFO - Iniciando execução de experimentos
+2025-07-13 14:46:42,625 - ml_predictor - INFO - Iniciando execução de experimentos
+2025-07-13 14:46:42,626 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:46:42,626 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:46:42,629 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:46:42,629 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:46:42,629 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:46:42,629 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:46:42,630 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:46:42,630 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:46:42,684 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:46:42,684 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:46:42,687 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:46:42,687 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:46:43,608 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:46:43,608 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:46:43,609 - ml_predictor - INFO - Executando experimentos em paralelo com 2 processos
+2025-07-13 14:46:43,609 - ml_predictor - INFO - Executando experimentos em paralelo com 2 processos
+2025-07-13 14:46:45,954 - ml_predictor - INFO - 2 erros salvos em results/logs\errors_20250713_144645.csv
+2025-07-13 14:46:45,954 - ml_predictor - INFO - 2 erros salvos em results/logs\errors_20250713_144645.csv
+2025-07-13 14:46:45,955 - ml_predictor - INFO - Experimentos concluídos em 3.33 segundos. 0 bem-sucedidos, 2 com erro.
+2025-07-13 14:46:45,955 - ml_predictor - INFO - Experimentos concluídos em 3.33 segundos. 0 bem-sucedidos, 2 com erro.
+2025-07-13 14:46:45,955 - ml_predictor - INFO - Total de 0 experimentos concluídos com sucesso
+2025-07-13 14:46:45,955 - ml_predictor - INFO - Total de 0 experimentos concluídos com sucesso
+2025-07-13 14:46:45,956 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 14:46:45,956 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 14:47:21,964 - ml_predictor - INFO - Iniciando execução de experimentos
+2025-07-13 14:47:21,969 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:47:21,969 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:47:21,970 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:47:21,970 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:47:21,971 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:47:21,971 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:47:21,971 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:47:21,971 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:47:22,016 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:47:22,016 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:47:22,018 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:47:22,018 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:47:22,420 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:47:22,420 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:47:22,420 - ml_predictor - INFO - Executando experimentos em paralelo com 2 processos
+2025-07-13 14:47:22,420 - ml_predictor - INFO - Executando experimentos em paralelo com 2 processos
+2025-07-13 14:47:24,722 - ml_predictor - INFO - 2 erros salvos em results/logs\errors_20250713_144724.csv
+2025-07-13 14:47:24,722 - ml_predictor - INFO - 2 erros salvos em results/logs\errors_20250713_144724.csv
+2025-07-13 14:47:24,722 - ml_predictor - INFO - Experimentos concluídos em 2.75 segundos. 0 bem-sucedidos, 2 com erro.
+2025-07-13 14:47:24,722 - ml_predictor - INFO - Experimentos concluídos em 2.75 segundos. 0 bem-sucedidos, 2 com erro.
+2025-07-13 14:47:24,723 - ml_predictor - INFO - Total de 0 experimentos concluídos com sucesso
+2025-07-13 14:47:24,723 - ml_predictor - INFO - Total de 0 experimentos concluídos com sucesso
+2025-07-13 14:47:24,723 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 14:47:24,723 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 14:49:02,490 - ml_predictor - INFO - Iniciando execução de experimentos
+2025-07-13 14:49:02,492 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:49:02,492 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:49:02,493 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:49:02,493 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:49:02,493 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:49:02,493 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:49:02,494 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:49:02,494 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:49:02,539 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:49:02,539 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:49:02,541 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:49:02,541 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:49:02,987 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:49:02,987 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:49:02,987 - ml_predictor - INFO - Executando experimentos em paralelo com 2 processos
+2025-07-13 14:49:02,987 - ml_predictor - INFO - Executando experimentos em paralelo com 2 processos
+2025-07-13 14:49:05,291 - ml_predictor - INFO - 2 erros salvos em results/logs\errors_20250713_144905.csv
+2025-07-13 14:49:05,291 - ml_predictor - INFO - 2 erros salvos em results/logs\errors_20250713_144905.csv
+2025-07-13 14:49:05,291 - ml_predictor - INFO - Experimentos concluídos em 2.80 segundos. 0 bem-sucedidos, 2 com erro.
+2025-07-13 14:49:05,291 - ml_predictor - INFO - Experimentos concluídos em 2.80 segundos. 0 bem-sucedidos, 2 com erro.
+2025-07-13 14:49:05,292 - ml_predictor - INFO - Total de 0 experimentos concluídos com sucesso
+2025-07-13 14:49:05,292 - ml_predictor - INFO - Total de 0 experimentos concluídos com sucesso
+2025-07-13 14:49:05,292 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 14:49:05,292 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 14:49:51,885 - ml_predictor - INFO - Iniciando execução de experimentos
+2025-07-13 14:49:51,887 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:49:51,887 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:49:51,890 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:49:51,890 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:49:51,890 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:49:51,890 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:49:51,891 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:49:51,891 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:49:51,931 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:49:51,931 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:49:51,934 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:49:51,934 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:49:52,350 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:49:52,350 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:49:52,350 - ml_predictor - INFO - Executando experimentos em paralelo com 2 processos
+2025-07-13 14:49:52,350 - ml_predictor - INFO - Executando experimentos em paralelo com 2 processos
+2025-07-13 14:49:54,693 - ml_predictor - INFO - 2 erros salvos em results/logs\errors_20250713_144954.csv
+2025-07-13 14:49:54,693 - ml_predictor - INFO - 2 erros salvos em results/logs\errors_20250713_144954.csv
+2025-07-13 14:49:54,693 - ml_predictor - INFO - Experimentos concluídos em 2.80 segundos. 0 bem-sucedidos, 2 com erro.
+2025-07-13 14:49:54,693 - ml_predictor - INFO - Experimentos concluídos em 2.80 segundos. 0 bem-sucedidos, 2 com erro.
+2025-07-13 14:49:54,694 - ml_predictor - INFO - Total de 0 experimentos concluídos com sucesso
+2025-07-13 14:49:54,694 - ml_predictor - INFO - Total de 0 experimentos concluídos com sucesso
+2025-07-13 14:49:54,694 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 14:49:54,694 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 14:50:20,680 - ml_predictor - INFO - Iniciando execução de experimentos
+2025-07-13 14:50:20,682 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:50:20,682 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:50:20,683 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:50:20,683 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:50:20,683 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:50:20,683 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:50:20,683 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:50:20,683 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:50:20,725 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:50:20,725 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:50:20,729 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:50:20,729 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:50:21,153 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:50:21,153 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:50:21,153 - ml_predictor - INFO - Executando experimentos em paralelo com 2 processos
+2025-07-13 14:50:21,153 - ml_predictor - INFO - Executando experimentos em paralelo com 2 processos
+2025-07-13 14:50:27,293 - ml_predictor - INFO - Experimentos concluídos em 6.61 segundos. 2 bem-sucedidos, 0 com erro.
+2025-07-13 14:50:27,293 - ml_predictor - INFO - Experimentos concluídos em 6.61 segundos. 2 bem-sucedidos, 0 com erro.
+2025-07-13 14:50:27,294 - ml_predictor - INFO - Total de 2 experimentos concluídos com sucesso
+2025-07-13 14:50:27,294 - ml_predictor - INFO - Total de 2 experimentos concluídos com sucesso
+2025-07-13 14:50:27,294 - ml_predictor - INFO - Média de acurácia: 0.8864
+2025-07-13 14:50:27,294 - ml_predictor - INFO - Média de acurácia: 0.8864
+2025-07-13 14:50:27,294 - ml_predictor - INFO - Média de acurácia balanceada: 0.8807
+2025-07-13 14:50:27,294 - ml_predictor - INFO - Média de acurácia balanceada: 0.8807
+2025-07-13 14:50:27,295 - ml_predictor - INFO - Média de F1-score: 0.8570
+2025-07-13 14:50:27,295 - ml_predictor - INFO - Média de F1-score: 0.8570
+2025-07-13 14:50:27,295 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 14:50:27,295 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 14:50:27,295 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 14:50:27,295 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 14:50:27,295 - ml_predictor - INFO -   Algoritmo: Random Forest
+2025-07-13 14:50:27,295 - ml_predictor - INFO -   Algoritmo: Random Forest
+2025-07-13 14:50:27,296 - ml_predictor - INFO -   Threshold de correlação: 0.8
+2025-07-13 14:50:27,296 - ml_predictor - INFO -   Threshold de correlação: 0.8
+2025-07-13 14:50:27,296 - ml_predictor - INFO -   Threshold de constantes: 0.9
+2025-07-13 14:50:27,296 - ml_predictor - INFO -   Threshold de constantes: 0.9
+2025-07-13 14:50:27,296 - ml_predictor - INFO -   Seed: 42
+2025-07-13 14:50:27,296 - ml_predictor - INFO -   Seed: 42
+2025-07-13 14:50:27,296 - ml_predictor - INFO -   Acurácia: 0.9058
+2025-07-13 14:50:27,296 - ml_predictor - INFO -   Acurácia: 0.9058
+2025-07-13 14:50:27,297 - ml_predictor - INFO -   Acurácia balanceada: 0.9011
+2025-07-13 14:50:27,297 - ml_predictor - INFO -   Acurácia balanceada: 0.9011
+2025-07-13 14:50:27,297 - ml_predictor - INFO -   F1-score: 0.8816
+2025-07-13 14:50:27,297 - ml_predictor - INFO -   F1-score: 0.8816
+2025-07-13 14:50:27,297 - ml_predictor - INFO -   Precisão: 0.8865
+2025-07-13 14:50:27,297 - ml_predictor - INFO -   Precisão: 0.8865
+2025-07-13 14:50:27,297 - ml_predictor - INFO -   Recall: 0.8773
+2025-07-13 14:50:27,297 - ml_predictor - INFO -   Recall: 0.8773
+2025-07-13 14:50:27,302 - ml_predictor - INFO - Resultados salvos em results/experiments\results_20250713_145027.csv
+2025-07-13 14:50:27,302 - ml_predictor - INFO - Resultados salvos em results/experiments\results_20250713_145027.csv
+2025-07-13 14:51:06,620 - ml_predictor - INFO - Iniciando execução de experimentos
+2025-07-13 14:51:06,622 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:51:06,622 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:51:06,623 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:51:06,623 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:51:06,624 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:51:06,624 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:51:06,624 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:51:06,624 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:51:06,662 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:51:06,662 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:51:06,664 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:51:06,664 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:51:07,056 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:51:07,056 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:51:07,057 - ml_predictor - INFO - Executando experimentos em paralelo com 2 processos
+2025-07-13 14:51:07,057 - ml_predictor - INFO - Executando experimentos em paralelo com 2 processos
+2025-07-13 14:51:13,000 - ml_predictor - INFO - Experimentos concluídos em 6.38 segundos. 2 bem-sucedidos, 0 com erro.
+2025-07-13 14:51:13,000 - ml_predictor - INFO - Experimentos concluídos em 6.38 segundos. 2 bem-sucedidos, 0 com erro.
+2025-07-13 14:51:13,001 - ml_predictor - INFO - Total de 2 experimentos concluídos com sucesso
+2025-07-13 14:51:13,001 - ml_predictor - INFO - Total de 2 experimentos concluídos com sucesso
+2025-07-13 14:51:13,001 - ml_predictor - INFO - Média de acurácia: 0.8864
+2025-07-13 14:51:13,001 - ml_predictor - INFO - Média de acurácia: 0.8864
+2025-07-13 14:51:13,002 - ml_predictor - INFO - Média de acurácia balanceada: 0.8807
+2025-07-13 14:51:13,002 - ml_predictor - INFO - Média de acurácia balanceada: 0.8807
+2025-07-13 14:51:13,002 - ml_predictor - INFO - Média de F1-score: 0.8570
+2025-07-13 14:51:13,002 - ml_predictor - INFO - Média de F1-score: 0.8570
+2025-07-13 14:51:13,002 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 14:51:13,002 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 14:51:13,003 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 14:51:13,003 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 14:51:13,003 - ml_predictor - INFO -   Algoritmo: Random Forest
+2025-07-13 14:51:13,003 - ml_predictor - INFO -   Algoritmo: Random Forest
+2025-07-13 14:51:13,004 - ml_predictor - INFO -   Threshold de correlação: 0.8
+2025-07-13 14:51:13,004 - ml_predictor - INFO -   Threshold de correlação: 0.8
+2025-07-13 14:51:13,004 - ml_predictor - INFO -   Threshold de constantes: 0.9
+2025-07-13 14:51:13,004 - ml_predictor - INFO -   Threshold de constantes: 0.9
+2025-07-13 14:51:13,004 - ml_predictor - INFO -   Seed: 42
+2025-07-13 14:51:13,004 - ml_predictor - INFO -   Seed: 42
+2025-07-13 14:51:13,005 - ml_predictor - INFO -   Acurácia: 0.9058
+2025-07-13 14:51:13,005 - ml_predictor - INFO -   Acurácia: 0.9058
+2025-07-13 14:51:13,005 - ml_predictor - INFO -   Acurácia balanceada: 0.9011
+2025-07-13 14:51:13,005 - ml_predictor - INFO -   Acurácia balanceada: 0.9011
+2025-07-13 14:51:13,005 - ml_predictor - INFO -   F1-score: 0.8816
+2025-07-13 14:51:13,005 - ml_predictor - INFO -   F1-score: 0.8816
+2025-07-13 14:51:13,006 - ml_predictor - INFO -   Precisão: 0.8865
+2025-07-13 14:51:13,006 - ml_predictor - INFO -   Precisão: 0.8865
+2025-07-13 14:51:13,006 - ml_predictor - INFO -   Recall: 0.8773
+2025-07-13 14:51:13,006 - ml_predictor - INFO -   Recall: 0.8773
+2025-07-13 14:51:13,012 - ml_predictor - INFO - Resultados salvos em results/experiments\results_20250713_145113.csv
+2025-07-13 14:51:13,012 - ml_predictor - INFO - Resultados salvos em results/experiments\results_20250713_145113.csv
+2025-07-13 14:51:13,092 - ml_predictor - INFO - Resultados completos salvos em results/experiments\full_results_20250713_145113.json
+2025-07-13 14:51:13,092 - ml_predictor - INFO - Resultados completos salvos em results/experiments\full_results_20250713_145113.json
+2025-07-13 14:51:14,212 - ml_predictor - INFO - Relatório consolidado gerado: results/reports/report_20250713_145113.png
+2025-07-13 14:51:14,212 - ml_predictor - INFO - Relatório consolidado gerado: results/reports/report_20250713_145113.png
+2025-07-13 14:51:14,213 - ml_predictor - INFO - Relatório consolidado gerado em results/reports/report_20250713_145113.png
+2025-07-13 14:51:14,213 - ml_predictor - INFO - Relatório consolidado gerado em results/reports/report_20250713_145113.png
+2025-07-13 14:51:14,215 - ml_predictor - ERROR - Erro ao gerar resumo dos experimentos: Object of type int64 is not JSON serializable
+2025-07-13 14:51:14,215 - ml_predictor - ERROR - Erro ao gerar resumo dos experimentos: Object of type int64 is not JSON serializable
+2025-07-13 14:51:14,215 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 14:51:14,215 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 14:51:49,996 - ml_predictor - INFO - Iniciando execução de experimentos
+2025-07-13 14:51:49,998 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:51:49,998 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:51:49,999 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:51:49,999 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:51:49,999 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:51:49,999 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:51:49,999 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:51:49,999 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:51:50,040 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:51:50,040 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:51:50,043 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:51:50,043 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:51:50,443 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:51:50,443 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:51:50,443 - ml_predictor - INFO - Executando experimentos em paralelo com 2 processos
+2025-07-13 14:51:50,443 - ml_predictor - INFO - Executando experimentos em paralelo com 2 processos
+2025-07-13 14:51:56,472 - ml_predictor - INFO - Experimentos concluídos em 6.47 segundos. 2 bem-sucedidos, 0 com erro.
+2025-07-13 14:51:56,472 - ml_predictor - INFO - Experimentos concluídos em 6.47 segundos. 2 bem-sucedidos, 0 com erro.
+2025-07-13 14:51:56,473 - ml_predictor - INFO - Total de 2 experimentos concluídos com sucesso
+2025-07-13 14:51:56,473 - ml_predictor - INFO - Total de 2 experimentos concluídos com sucesso
+2025-07-13 14:51:56,473 - ml_predictor - INFO - Média de acurácia: 0.8864
+2025-07-13 14:51:56,473 - ml_predictor - INFO - Média de acurácia: 0.8864
+2025-07-13 14:51:56,474 - ml_predictor - INFO - Média de acurácia balanceada: 0.8807
+2025-07-13 14:51:56,474 - ml_predictor - INFO - Média de acurácia balanceada: 0.8807
+2025-07-13 14:51:56,474 - ml_predictor - INFO - Média de F1-score: 0.8570
+2025-07-13 14:51:56,474 - ml_predictor - INFO - Média de F1-score: 0.8570
+2025-07-13 14:51:56,474 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 14:51:56,474 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 14:51:56,475 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 14:51:56,475 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 14:51:56,475 - ml_predictor - INFO -   Algoritmo: Random Forest
+2025-07-13 14:51:56,475 - ml_predictor - INFO -   Algoritmo: Random Forest
+2025-07-13 14:51:56,475 - ml_predictor - INFO -   Threshold de correlação: 0.8
+2025-07-13 14:51:56,475 - ml_predictor - INFO -   Threshold de correlação: 0.8
+2025-07-13 14:51:56,476 - ml_predictor - INFO -   Threshold de constantes: 0.9
+2025-07-13 14:51:56,476 - ml_predictor - INFO -   Threshold de constantes: 0.9
+2025-07-13 14:51:56,476 - ml_predictor - INFO -   Seed: 42
+2025-07-13 14:51:56,476 - ml_predictor - INFO -   Seed: 42
+2025-07-13 14:51:56,476 - ml_predictor - INFO -   Acurácia: 0.9058
+2025-07-13 14:51:56,476 - ml_predictor - INFO -   Acurácia: 0.9058
+2025-07-13 14:51:56,477 - ml_predictor - INFO -   Acurácia balanceada: 0.9011
+2025-07-13 14:51:56,477 - ml_predictor - INFO -   Acurácia balanceada: 0.9011
+2025-07-13 14:51:56,477 - ml_predictor - INFO -   F1-score: 0.8816
+2025-07-13 14:51:56,477 - ml_predictor - INFO -   F1-score: 0.8816
+2025-07-13 14:51:56,477 - ml_predictor - INFO -   Precisão: 0.8865
+2025-07-13 14:51:56,477 - ml_predictor - INFO -   Precisão: 0.8865
+2025-07-13 14:51:56,478 - ml_predictor - INFO -   Recall: 0.8773
+2025-07-13 14:51:56,478 - ml_predictor - INFO -   Recall: 0.8773
+2025-07-13 14:51:56,484 - ml_predictor - INFO - Resultados salvos em results/experiments\results_20250713_145156.csv
+2025-07-13 14:51:56,484 - ml_predictor - INFO - Resultados salvos em results/experiments\results_20250713_145156.csv
+2025-07-13 14:51:56,557 - ml_predictor - INFO - Resultados completos salvos em results/experiments\full_results_20250713_145156.json
+2025-07-13 14:51:56,557 - ml_predictor - INFO - Resultados completos salvos em results/experiments\full_results_20250713_145156.json
+2025-07-13 14:51:57,649 - ml_predictor - INFO - Relatório consolidado gerado: results/reports/report_20250713_145156.png
+2025-07-13 14:51:57,649 - ml_predictor - INFO - Relatório consolidado gerado: results/reports/report_20250713_145156.png
+2025-07-13 14:51:57,649 - ml_predictor - INFO - Relatório consolidado gerado em results/reports/report_20250713_145156.png
+2025-07-13 14:51:57,649 - ml_predictor - INFO - Relatório consolidado gerado em results/reports/report_20250713_145156.png
+2025-07-13 14:51:57,652 - ml_predictor - INFO - Resumo dos experimentos gerado: results/reports/summary_20250713_145157.json
+2025-07-13 14:51:57,652 - ml_predictor - INFO - Resumo dos experimentos gerado: results/reports/summary_20250713_145157.json
+2025-07-13 14:51:57,652 - ml_predictor - INFO - Resumo dos experimentos gerado em results/reports/summary_20250713_145157.json
+2025-07-13 14:51:57,652 - ml_predictor - INFO - Resumo dos experimentos gerado em results/reports/summary_20250713_145157.json
+2025-07-13 14:51:57,653 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 14:51:57,653 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 14:54:25,680 - ml_predictor - INFO - Iniciando execução de experimentos
+2025-07-13 14:54:25,682 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:54:25,682 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:54:25,683 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:54:25,683 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:54:25,684 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:54:25,684 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:54:25,684 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:54:25,684 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:54:25,727 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:54:25,727 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:54:25,729 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:54:25,729 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:54:26,153 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:54:26,153 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:54:26,154 - ml_predictor - INFO - Executando experimentos em paralelo com 2 processos
+2025-07-13 14:54:26,154 - ml_predictor - INFO - Executando experimentos em paralelo com 2 processos
+2025-07-13 14:54:32,135 - ml_predictor - INFO - Experimentos concluídos em 6.45 segundos. 2 bem-sucedidos, 0 com erro.
+2025-07-13 14:54:32,135 - ml_predictor - INFO - Experimentos concluídos em 6.45 segundos. 2 bem-sucedidos, 0 com erro.
+2025-07-13 14:54:32,135 - ml_predictor - INFO - Total de 2 experimentos concluídos com sucesso
+2025-07-13 14:54:32,135 - ml_predictor - INFO - Total de 2 experimentos concluídos com sucesso
+2025-07-13 14:54:32,136 - ml_predictor - INFO - Média de acurácia: 0.8864
+2025-07-13 14:54:32,136 - ml_predictor - INFO - Média de acurácia: 0.8864
+2025-07-13 14:54:32,136 - ml_predictor - INFO - Média de acurácia balanceada: 0.8807
+2025-07-13 14:54:32,136 - ml_predictor - INFO - Média de acurácia balanceada: 0.8807
+2025-07-13 14:54:32,136 - ml_predictor - INFO - Média de F1-score: 0.8570
+2025-07-13 14:54:32,136 - ml_predictor - INFO - Média de F1-score: 0.8570
+2025-07-13 14:54:32,136 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 14:54:32,136 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 14:54:32,137 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 14:54:32,137 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 14:54:32,137 - ml_predictor - INFO -   Algoritmo: Random Forest
+2025-07-13 14:54:32,137 - ml_predictor - INFO -   Algoritmo: Random Forest
+2025-07-13 14:54:32,137 - ml_predictor - INFO -   Threshold de correlação: 0.8
+2025-07-13 14:54:32,137 - ml_predictor - INFO -   Threshold de correlação: 0.8
+2025-07-13 14:54:32,138 - ml_predictor - INFO -   Threshold de constantes: 0.9
+2025-07-13 14:54:32,138 - ml_predictor - INFO -   Threshold de constantes: 0.9
+2025-07-13 14:54:32,138 - ml_predictor - INFO -   Seed: 42
+2025-07-13 14:54:32,138 - ml_predictor - INFO -   Seed: 42
+2025-07-13 14:54:32,138 - ml_predictor - INFO -   Acurácia: 0.9058
+2025-07-13 14:54:32,138 - ml_predictor - INFO -   Acurácia: 0.9058
+2025-07-13 14:54:32,139 - ml_predictor - INFO -   Acurácia balanceada: 0.9011
+2025-07-13 14:54:32,139 - ml_predictor - INFO -   Acurácia balanceada: 0.9011
+2025-07-13 14:54:32,139 - ml_predictor - INFO -   F1-score: 0.8816
+2025-07-13 14:54:32,139 - ml_predictor - INFO -   F1-score: 0.8816
+2025-07-13 14:54:32,140 - ml_predictor - INFO -   Precisão: 0.8865
+2025-07-13 14:54:32,140 - ml_predictor - INFO -   Precisão: 0.8865
+2025-07-13 14:54:32,140 - ml_predictor - INFO -   Recall: 0.8773
+2025-07-13 14:54:32,140 - ml_predictor - INFO -   Recall: 0.8773
+2025-07-13 14:54:32,147 - ml_predictor - INFO - Resultados salvos em results/experiments\results_20250713_145432.csv
+2025-07-13 14:54:32,147 - ml_predictor - INFO - Resultados salvos em results/experiments\results_20250713_145432.csv
+2025-07-13 14:54:32,221 - ml_predictor - INFO - Resultados completos salvos em results/experiments\full_results_20250713_145432.json
+2025-07-13 14:54:32,221 - ml_predictor - INFO - Resultados completos salvos em results/experiments\full_results_20250713_145432.json
+2025-07-13 14:54:33,393 - ml_predictor - INFO - Relatório consolidado gerado: results/reports/report_20250713_145432.png
+2025-07-13 14:54:33,393 - ml_predictor - INFO - Relatório consolidado gerado: results/reports/report_20250713_145432.png
+2025-07-13 14:54:33,394 - ml_predictor - INFO - Relatório consolidado gerado em results/reports/report_20250713_145432.png
+2025-07-13 14:54:33,394 - ml_predictor - INFO - Relatório consolidado gerado em results/reports/report_20250713_145432.png
+2025-07-13 14:54:33,397 - ml_predictor - INFO - Resumo dos experimentos gerado: results/reports/summary_20250713_145433.json
+2025-07-13 14:54:33,397 - ml_predictor - INFO - Resumo dos experimentos gerado: results/reports/summary_20250713_145433.json
+2025-07-13 14:54:33,554 - ml_predictor - INFO - Relatório HTML gerado: results/reports/report_20250713_145433.html
+2025-07-13 14:54:33,554 - ml_predictor - INFO - Relatório HTML gerado: results/reports/report_20250713_145433.html
+2025-07-13 14:54:33,554 - ml_predictor - INFO - Resumo dos experimentos gerado em results/reports/summary_20250713_145433.json
+2025-07-13 14:54:33,554 - ml_predictor - INFO - Resumo dos experimentos gerado em results/reports/summary_20250713_145433.json
+2025-07-13 14:54:33,555 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 14:54:33,555 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 14:58:09,895 - ml_predictor - INFO - Iniciando execução de experimentos
+2025-07-13 14:58:09,897 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:58:09,897 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:58:09,900 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:58:09,900 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:58:09,901 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:58:09,901 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:58:09,901 - ml_predictor - ERROR - Nenhum dataset encontrado
+2025-07-13 14:58:09,901 - ml_predictor - ERROR - Nenhum dataset encontrado
+2025-07-13 14:58:09,901 - ml_predictor - INFO - Total de 0 experimentos concluídos com sucesso
+2025-07-13 14:58:09,901 - ml_predictor - INFO - Total de 0 experimentos concluídos com sucesso
+2025-07-13 14:58:09,901 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 14:58:09,901 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 14:58:27,732 - ml_predictor - INFO - Iniciando execução de experimentos
+2025-07-13 14:58:27,734 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:58:27,734 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:58:27,735 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:58:27,735 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:58:27,735 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:58:27,735 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:58:27,736 - ml_predictor - INFO - Carregando dataset: datasets\dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:58:27,736 - ml_predictor - INFO - Carregando dataset: datasets\dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:58:27,778 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:58:27,778 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:58:27,780 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:58:27,780 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:58:28,176 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:58:28,176 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:58:28,177 - ml_predictor - INFO - Executando experimentos sequencialmente
+2025-07-13 14:58:28,177 - ml_predictor - INFO - Executando experimentos sequencialmente
+2025-07-13 14:58:28,177 - ml_predictor - INFO - Carregando dataset: datasets\dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:58:28,177 - ml_predictor - INFO - Carregando dataset: datasets\dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:58:28,236 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:58:28,236 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:58:28,238 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:58:28,238 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:58:28,239 - ml_predictor - INFO - Executando experimento: dados_atuais_listagem_nominal-dv, dt, corr=0.9, const=0.1, seed=145
+2025-07-13 14:58:28,239 - ml_predictor - INFO - Executando experimento: dados_atuais_listagem_nominal-dv, dt, corr=0.9, const=0.1, seed=145
+2025-07-13 14:58:28,241 - ml_predictor - INFO - Iniciando pré-processamento do dataset dados_atuais_listagem_nominal-dv
+2025-07-13 14:58:28,241 - ml_predictor - INFO - Iniciando pré-processamento do dataset dados_atuais_listagem_nominal-dv
+2025-07-13 14:58:28,269 - ml_predictor - INFO - Removendo 4 colunas com mais de 50% de valores ausentes
+2025-07-13 14:58:28,269 - ml_predictor - INFO - Removendo 4 colunas com mais de 50% de valores ausentes
+2025-07-13 14:58:28,536 - ml_predictor - INFO - Processadas 28 colunas categóricas
+2025-07-13 14:58:28,536 - ml_predictor - INFO - Processadas 28 colunas categóricas
+2025-07-13 14:58:28,536 - ml_predictor - INFO - Pré-processamento concluído: 6446 amostras, 79 features
+2025-07-13 14:58:28,536 - ml_predictor - INFO - Pré-processamento concluído: 6446 amostras, 79 features
+2025-07-13 14:58:28,537 - ml_predictor - INFO - Removendo features constantes com threshold 0.1
+2025-07-13 14:58:28,537 - ml_predictor - INFO - Removendo features constantes com threshold 0.1
+2025-07-13 14:58:28,542 - ml_predictor - WARNING - Removendo 62 colunas não numéricas antes da verificação de constantes: ['Campus', 'Sede', 'Nível de ensino', 'Grau', 'Periodicidade', 'Funcionamento', 'Curso', 'Turno', 'Gênero', 'Nome', 'Ano/semestre da situação', 'Calouro', 'Coeficiente de rendimento absoluto', 'Data de ingresso', 'Data de nascimento', 'Forma de ingresso', 'Mudou curso (mesmo campus)', 'Mudou curso (outro campus)', 'Município', 'Município (SISU)', 'Nota ENEM Humanas', 'Nota ENEM Liguagem', 'Nota ENEM Matemática', 'Nota ENEM Natureza', 'Nota Final SISU', 'País de nascimento', 'Provável jubilamento', 'Regime de ensino', 'Retenção parcial', 'Retenção total', 'Situação atual', 'Tipo de cota', 'UF', 'UF (SISU)', 'Campus_original', 'Sede_original', 'Nível de ensino_original', 'Grau_original', 'Periodicidade_original', 'Funcionamento_original', 'Curso_original', 'Turno_original', 'Gênero_original', 'Nome_original', 'Ano/semestre da situação_original', 'Calouro_original', 'Data de ingresso_original', 'Data de nascimento_original', 'Forma de ingresso_original', 'Mudou curso (mesmo campus)_original', 'Mudou curso (outro campus)_original', 'Município_original', 'Município (SISU)_original', 'País de nascimento_original', 'Provável jubilamento_original', 'Regime de ensino_original', 'Retenção parcial_original', 'Retenção total_original', 'Situação atual_original', 'Tipo de cota_original', 'UF_original', 'UF (SISU)_original']
+2025-07-13 14:58:28,542 - ml_predictor - WARNING - Removendo 62 colunas não numéricas antes da verificação de constantes: ['Campus', 'Sede', 'Nível de ensino', 'Grau', 'Periodicidade', 'Funcionamento', 'Curso', 'Turno', 'Gênero', 'Nome', 'Ano/semestre da situação', 'Calouro', 'Coeficiente de rendimento absoluto', 'Data de ingresso', 'Data de nascimento', 'Forma de ingresso', 'Mudou curso (mesmo campus)', 'Mudou curso (outro campus)', 'Município', 'Município (SISU)', 'Nota ENEM Humanas', 'Nota ENEM Liguagem', 'Nota ENEM Matemática', 'Nota ENEM Natureza', 'Nota Final SISU', 'País de nascimento', 'Provável jubilamento', 'Regime de ensino', 'Retenção parcial', 'Retenção total', 'Situação atual', 'Tipo de cota', 'UF', 'UF (SISU)', 'Campus_original', 'Sede_original', 'Nível de ensino_original', 'Grau_original', 'Periodicidade_original', 'Funcionamento_original', 'Curso_original', 'Turno_original', 'Gênero_original', 'Nome_original', 'Ano/semestre da situação_original', 'Calouro_original', 'Data de ingresso_original', 'Data de nascimento_original', 'Forma de ingresso_original', 'Mudou curso (mesmo campus)_original', 'Mudou curso (outro campus)_original', 'Município_original', 'Município (SISU)_original', 'País de nascimento_original', 'Provável jubilamento_original', 'Regime de ensino_original', 'Retenção parcial_original', 'Retenção total_original', 'Situação atual_original', 'Tipo de cota_original', 'UF_original', 'UF (SISU)_original']
+2025-07-13 14:58:28,544 - ml_predictor - WARNING - Substituindo valores NaN pela média das colunas antes da verificação de constantes
+2025-07-13 14:58:28,544 - ml_predictor - WARNING - Substituindo valores NaN pela média das colunas antes da verificação de constantes
+2025-07-13 14:58:28,549 - ml_predictor - INFO - Features removidas por baixa variância: {'Nr de entradas em outros cursos de graduação', 'Nr de entradas no mesmo curso', 'Ordem ingresso no curso'}
+2025-07-13 14:58:28,549 - ml_predictor - INFO - Features removidas por baixa variância: {'Nr de entradas em outros cursos de graduação', 'Nr de entradas no mesmo curso', 'Ordem ingresso no curso'}
+2025-07-13 14:58:28,550 - ml_predictor - INFO - Após remoção de constantes: 14 features
+2025-07-13 14:58:28,550 - ml_predictor - INFO - Após remoção de constantes: 14 features
+2025-07-13 14:58:28,552 - ml_predictor - INFO - Realizando imputação de valores ausentes com estratégia 'mean'
+2025-07-13 14:58:28,552 - ml_predictor - INFO - Realizando imputação de valores ausentes com estratégia 'mean'
+2025-07-13 14:58:28,553 - ml_predictor - INFO - Não há valores ausentes para imputar
+2025-07-13 14:58:28,553 - ml_predictor - INFO - Não há valores ausentes para imputar
+2025-07-13 14:58:28,554 - ml_predictor - INFO - Removendo features correlacionadas com threshold 0.9
+2025-07-13 14:58:28,554 - ml_predictor - INFO - Removendo features correlacionadas com threshold 0.9
+2025-07-13 14:58:28,558 - ml_predictor - INFO - Removendo 2 features por alta correlação: ['Ano de ingresso', 'Período']
+2025-07-13 14:58:28,558 - ml_predictor - INFO - Removendo 2 features por alta correlação: ['Ano de ingresso', 'Período']
+2025-07-13 14:58:28,559 - ml_predictor - INFO - Balanceamento de classes não aplicado (desativado na configuração)
+2025-07-13 14:58:28,559 - ml_predictor - INFO - Balanceamento de classes não aplicado (desativado na configuração)
+2025-07-13 14:58:28,560 - ml_predictor - INFO - Iniciando treinamento e teste com algoritmo dt, seed 145
+2025-07-13 14:58:28,560 - ml_predictor - INFO - Iniciando treinamento e teste com algoritmo dt, seed 145
+2025-07-13 14:58:28,752 - ml_predictor - INFO - Treinamento concluído com sucesso. Acurácia média: 0.8767
+2025-07-13 14:58:28,752 - ml_predictor - INFO - Treinamento concluído com sucesso. Acurácia média: 0.8767
+2025-07-13 14:58:28,962 - ml_predictor - INFO - Experimento concluído com sucesso: dados_atuais_listagem_nominal-dv, dt
+2025-07-13 14:58:28,962 - ml_predictor - INFO - Experimento concluído com sucesso: dados_atuais_listagem_nominal-dv, dt
+2025-07-13 14:58:28,963 - ml_predictor - INFO - Carregando dataset: datasets\dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:58:28,963 - ml_predictor - INFO - Carregando dataset: datasets\dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:58:29,005 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:58:29,005 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:58:29,007 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:58:29,007 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:58:29,007 - ml_predictor - INFO - Executando experimento: dados_atuais_listagem_nominal-dv, rf, corr=0.9, const=0.1, seed=145
+2025-07-13 14:58:29,007 - ml_predictor - INFO - Executando experimento: dados_atuais_listagem_nominal-dv, rf, corr=0.9, const=0.1, seed=145
+2025-07-13 14:58:29,009 - ml_predictor - INFO - Iniciando pré-processamento do dataset dados_atuais_listagem_nominal-dv
+2025-07-13 14:58:29,009 - ml_predictor - INFO - Iniciando pré-processamento do dataset dados_atuais_listagem_nominal-dv
+2025-07-13 14:58:29,021 - ml_predictor - INFO - Removendo 4 colunas com mais de 50% de valores ausentes
+2025-07-13 14:58:29,021 - ml_predictor - INFO - Removendo 4 colunas com mais de 50% de valores ausentes
+2025-07-13 14:58:29,212 - ml_predictor - INFO - Processadas 28 colunas categóricas
+2025-07-13 14:58:29,212 - ml_predictor - INFO - Processadas 28 colunas categóricas
+2025-07-13 14:58:29,213 - ml_predictor - INFO - Pré-processamento concluído: 6446 amostras, 79 features
+2025-07-13 14:58:29,213 - ml_predictor - INFO - Pré-processamento concluído: 6446 amostras, 79 features
+2025-07-13 14:58:29,214 - ml_predictor - INFO - Removendo features constantes com threshold 0.1
+2025-07-13 14:58:29,214 - ml_predictor - INFO - Removendo features constantes com threshold 0.1
+2025-07-13 14:58:29,218 - ml_predictor - WARNING - Removendo 62 colunas não numéricas antes da verificação de constantes: ['Campus', 'Sede', 'Nível de ensino', 'Grau', 'Periodicidade', 'Funcionamento', 'Curso', 'Turno', 'Gênero', 'Nome', 'Ano/semestre da situação', 'Calouro', 'Coeficiente de rendimento absoluto', 'Data de ingresso', 'Data de nascimento', 'Forma de ingresso', 'Mudou curso (mesmo campus)', 'Mudou curso (outro campus)', 'Município', 'Município (SISU)', 'Nota ENEM Humanas', 'Nota ENEM Liguagem', 'Nota ENEM Matemática', 'Nota ENEM Natureza', 'Nota Final SISU', 'País de nascimento', 'Provável jubilamento', 'Regime de ensino', 'Retenção parcial', 'Retenção total', 'Situação atual', 'Tipo de cota', 'UF', 'UF (SISU)', 'Campus_original', 'Sede_original', 'Nível de ensino_original', 'Grau_original', 'Periodicidade_original', 'Funcionamento_original', 'Curso_original', 'Turno_original', 'Gênero_original', 'Nome_original', 'Ano/semestre da situação_original', 'Calouro_original', 'Data de ingresso_original', 'Data de nascimento_original', 'Forma de ingresso_original', 'Mudou curso (mesmo campus)_original', 'Mudou curso (outro campus)_original', 'Município_original', 'Município (SISU)_original', 'País de nascimento_original', 'Provável jubilamento_original', 'Regime de ensino_original', 'Retenção parcial_original', 'Retenção total_original', 'Situação atual_original', 'Tipo de cota_original', 'UF_original', 'UF (SISU)_original']
+2025-07-13 14:58:29,218 - ml_predictor - WARNING - Removendo 62 colunas não numéricas antes da verificação de constantes: ['Campus', 'Sede', 'Nível de ensino', 'Grau', 'Periodicidade', 'Funcionamento', 'Curso', 'Turno', 'Gênero', 'Nome', 'Ano/semestre da situação', 'Calouro', 'Coeficiente de rendimento absoluto', 'Data de ingresso', 'Data de nascimento', 'Forma de ingresso', 'Mudou curso (mesmo campus)', 'Mudou curso (outro campus)', 'Município', 'Município (SISU)', 'Nota ENEM Humanas', 'Nota ENEM Liguagem', 'Nota ENEM Matemática', 'Nota ENEM Natureza', 'Nota Final SISU', 'País de nascimento', 'Provável jubilamento', 'Regime de ensino', 'Retenção parcial', 'Retenção total', 'Situação atual', 'Tipo de cota', 'UF', 'UF (SISU)', 'Campus_original', 'Sede_original', 'Nível de ensino_original', 'Grau_original', 'Periodicidade_original', 'Funcionamento_original', 'Curso_original', 'Turno_original', 'Gênero_original', 'Nome_original', 'Ano/semestre da situação_original', 'Calouro_original', 'Data de ingresso_original', 'Data de nascimento_original', 'Forma de ingresso_original', 'Mudou curso (mesmo campus)_original', 'Mudou curso (outro campus)_original', 'Município_original', 'Município (SISU)_original', 'País de nascimento_original', 'Provável jubilamento_original', 'Regime de ensino_original', 'Retenção parcial_original', 'Retenção total_original', 'Situação atual_original', 'Tipo de cota_original', 'UF_original', 'UF (SISU)_original']
+2025-07-13 14:58:29,221 - ml_predictor - WARNING - Substituindo valores NaN pela média das colunas antes da verificação de constantes
+2025-07-13 14:58:29,221 - ml_predictor - WARNING - Substituindo valores NaN pela média das colunas antes da verificação de constantes
+2025-07-13 14:58:29,226 - ml_predictor - INFO - Features removidas por baixa variância: {'Nr de entradas em outros cursos de graduação', 'Nr de entradas no mesmo curso', 'Ordem ingresso no curso'}
+2025-07-13 14:58:29,226 - ml_predictor - INFO - Features removidas por baixa variância: {'Nr de entradas em outros cursos de graduação', 'Nr de entradas no mesmo curso', 'Ordem ingresso no curso'}
+2025-07-13 14:58:29,228 - ml_predictor - INFO - Após remoção de constantes: 14 features
+2025-07-13 14:58:29,228 - ml_predictor - INFO - Após remoção de constantes: 14 features
+2025-07-13 14:58:29,229 - ml_predictor - INFO - Realizando imputação de valores ausentes com estratégia 'mean'
+2025-07-13 14:58:29,229 - ml_predictor - INFO - Realizando imputação de valores ausentes com estratégia 'mean'
+2025-07-13 14:58:29,230 - ml_predictor - INFO - Não há valores ausentes para imputar
+2025-07-13 14:58:29,230 - ml_predictor - INFO - Não há valores ausentes para imputar
+2025-07-13 14:58:29,230 - ml_predictor - INFO - Removendo features correlacionadas com threshold 0.9
+2025-07-13 14:58:29,230 - ml_predictor - INFO - Removendo features correlacionadas com threshold 0.9
+2025-07-13 14:58:29,236 - ml_predictor - INFO - Removendo 2 features por alta correlação: ['Ano de ingresso', 'Período']
+2025-07-13 14:58:29,236 - ml_predictor - INFO - Removendo 2 features por alta correlação: ['Ano de ingresso', 'Período']
+2025-07-13 14:58:29,238 - ml_predictor - INFO - Balanceamento de classes não aplicado (desativado na configuração)
+2025-07-13 14:58:29,238 - ml_predictor - INFO - Balanceamento de classes não aplicado (desativado na configuração)
+2025-07-13 14:58:29,238 - ml_predictor - INFO - Iniciando treinamento e teste com algoritmo rf, seed 145
+2025-07-13 14:58:29,238 - ml_predictor - INFO - Iniciando treinamento e teste com algoritmo rf, seed 145
+2025-07-13 14:58:32,040 - ml_predictor - INFO - Treinamento concluído com sucesso. Acurácia média: 0.9071
+2025-07-13 14:58:32,040 - ml_predictor - INFO - Treinamento concluído com sucesso. Acurácia média: 0.9071
+2025-07-13 14:58:32,698 - ml_predictor - INFO - Experimento concluído com sucesso: dados_atuais_listagem_nominal-dv, rf
+2025-07-13 14:58:32,698 - ml_predictor - INFO - Experimento concluído com sucesso: dados_atuais_listagem_nominal-dv, rf
+2025-07-13 14:58:32,699 - ml_predictor - INFO - Experimentos concluídos em 4.96 segundos. 2 bem-sucedidos, 0 com erro.
+2025-07-13 14:58:32,699 - ml_predictor - INFO - Experimentos concluídos em 4.96 segundos. 2 bem-sucedidos, 0 com erro.
+2025-07-13 14:58:32,700 - ml_predictor - INFO - Total de 2 experimentos concluídos com sucesso
+2025-07-13 14:58:32,700 - ml_predictor - INFO - Total de 2 experimentos concluídos com sucesso
+2025-07-13 14:58:32,700 - ml_predictor - INFO - Média de acurácia: 0.8919
+2025-07-13 14:58:32,700 - ml_predictor - INFO - Média de acurácia: 0.8919
+2025-07-13 14:58:32,701 - ml_predictor - INFO - Média de acurácia balanceada: 0.8869
+2025-07-13 14:58:32,701 - ml_predictor - INFO - Média de acurácia balanceada: 0.8869
+2025-07-13 14:58:32,701 - ml_predictor - INFO - Média de F1-score: 0.8644
+2025-07-13 14:58:32,701 - ml_predictor - INFO - Média de F1-score: 0.8644
+2025-07-13 14:58:32,702 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 14:58:32,702 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 14:58:32,702 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 14:58:32,702 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 14:58:32,702 - ml_predictor - INFO -   Algoritmo: Random Forest
+2025-07-13 14:58:32,702 - ml_predictor - INFO -   Algoritmo: Random Forest
+2025-07-13 14:58:32,703 - ml_predictor - INFO -   Threshold de correlação: 0.9
+2025-07-13 14:58:32,703 - ml_predictor - INFO -   Threshold de correlação: 0.9
+2025-07-13 14:58:32,703 - ml_predictor - INFO -   Threshold de constantes: 0.1
+2025-07-13 14:58:32,703 - ml_predictor - INFO -   Threshold de constantes: 0.1
+2025-07-13 14:58:32,703 - ml_predictor - INFO -   Seed: 145
+2025-07-13 14:58:32,703 - ml_predictor - INFO -   Seed: 145
+2025-07-13 14:58:32,704 - ml_predictor - INFO -   Acurácia: 0.9071
+2025-07-13 14:58:32,704 - ml_predictor - INFO -   Acurácia: 0.9071
+2025-07-13 14:58:32,718 - ml_predictor - INFO -   Acurácia balanceada: 0.9023
+2025-07-13 14:58:32,718 - ml_predictor - INFO -   Acurácia balanceada: 0.9023
+2025-07-13 14:58:32,728 - ml_predictor - INFO -   F1-score: 0.8831
+2025-07-13 14:58:32,728 - ml_predictor - INFO -   F1-score: 0.8831
+2025-07-13 14:58:32,741 - ml_predictor - INFO -   Precisão: 0.8878
+2025-07-13 14:58:32,741 - ml_predictor - INFO -   Precisão: 0.8878
+2025-07-13 14:58:32,758 - ml_predictor - INFO -   Recall: 0.8784
+2025-07-13 14:58:32,758 - ml_predictor - INFO -   Recall: 0.8784
+2025-07-13 14:58:32,784 - ml_predictor - INFO - Resultados salvos em results/experiments\results_20250713_145832.csv
+2025-07-13 14:58:32,784 - ml_predictor - INFO - Resultados salvos em results/experiments\results_20250713_145832.csv
+2025-07-13 14:58:32,925 - ml_predictor - INFO - Resultados completos salvos em results/experiments\full_results_20250713_145832.json
+2025-07-13 14:58:32,925 - ml_predictor - INFO - Resultados completos salvos em results/experiments\full_results_20250713_145832.json
+2025-07-13 14:58:34,092 - ml_predictor - INFO - Relatório consolidado gerado: results/reports/report_20250713_145832.png
+2025-07-13 14:58:34,092 - ml_predictor - INFO - Relatório consolidado gerado: results/reports/report_20250713_145832.png
+2025-07-13 14:58:34,093 - ml_predictor - INFO - Relatório consolidado gerado em results/reports/report_20250713_145832.png
+2025-07-13 14:58:34,093 - ml_predictor - INFO - Relatório consolidado gerado em results/reports/report_20250713_145832.png
+2025-07-13 14:58:34,096 - ml_predictor - INFO - Resumo dos experimentos gerado: results/reports/summary_20250713_145834.json
+2025-07-13 14:58:34,096 - ml_predictor - INFO - Resumo dos experimentos gerado: results/reports/summary_20250713_145834.json
+2025-07-13 14:58:34,258 - ml_predictor - INFO - Relatório HTML gerado: results/reports/report_20250713_145834.html
+2025-07-13 14:58:34,258 - ml_predictor - INFO - Relatório HTML gerado: results/reports/report_20250713_145834.html
+2025-07-13 14:58:34,258 - ml_predictor - INFO - Resumo dos experimentos gerado em results/reports/summary_20250713_145834.json
+2025-07-13 14:58:34,258 - ml_predictor - INFO - Resumo dos experimentos gerado em results/reports/summary_20250713_145834.json
+2025-07-13 14:58:34,259 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 14:58:34,259 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 14:59:24,727 - ml_predictor - INFO - Iniciando execução de experimentos
+2025-07-13 14:59:24,729 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:59:24,729 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 14:59:24,732 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:59:24,732 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 14:59:24,733 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:59:24,733 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 14:59:24,733 - ml_predictor - INFO - Carregando dataset: datasets\dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:59:24,733 - ml_predictor - INFO - Carregando dataset: datasets\dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:59:24,777 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:59:24,777 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:59:24,779 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:59:24,779 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:59:25,208 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:59:25,208 - ml_predictor - INFO - Total de 2 experimentos a serem executados
+2025-07-13 14:59:25,208 - ml_predictor - INFO - Executando experimentos sequencialmente
+2025-07-13 14:59:25,208 - ml_predictor - INFO - Executando experimentos sequencialmente
+2025-07-13 14:59:25,208 - ml_predictor - INFO - Carregando dataset: datasets\dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:59:25,208 - ml_predictor - INFO - Carregando dataset: datasets\dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:59:25,252 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:59:25,252 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:59:25,255 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:59:25,255 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:59:25,255 - ml_predictor - INFO - Executando experimento: dados_atuais_listagem_nominal-dv, dt, corr=0.9, const=0.1, seed=145
+2025-07-13 14:59:25,255 - ml_predictor - INFO - Executando experimento: dados_atuais_listagem_nominal-dv, dt, corr=0.9, const=0.1, seed=145
+2025-07-13 14:59:25,257 - ml_predictor - INFO - Iniciando pré-processamento do dataset dados_atuais_listagem_nominal-dv
+2025-07-13 14:59:25,257 - ml_predictor - INFO - Iniciando pré-processamento do dataset dados_atuais_listagem_nominal-dv
+2025-07-13 14:59:25,269 - ml_predictor - INFO - Removendo 4 colunas com mais de 50% de valores ausentes
+2025-07-13 14:59:25,269 - ml_predictor - INFO - Removendo 4 colunas com mais de 50% de valores ausentes
+2025-07-13 14:59:25,494 - ml_predictor - INFO - Processadas 28 colunas categóricas
+2025-07-13 14:59:25,494 - ml_predictor - INFO - Processadas 28 colunas categóricas
+2025-07-13 14:59:25,494 - ml_predictor - INFO - Pré-processamento concluído: 6446 amostras, 79 features
+2025-07-13 14:59:25,494 - ml_predictor - INFO - Pré-processamento concluído: 6446 amostras, 79 features
+2025-07-13 14:59:25,495 - ml_predictor - INFO - Removendo features constantes com threshold 0.1
+2025-07-13 14:59:25,495 - ml_predictor - INFO - Removendo features constantes com threshold 0.1
+2025-07-13 14:59:25,500 - ml_predictor - WARNING - Removendo 62 colunas não numéricas antes da verificação de constantes: ['Campus', 'Sede', 'Nível de ensino', 'Grau', 'Periodicidade', 'Funcionamento', 'Curso', 'Turno', 'Gênero', 'Nome', 'Ano/semestre da situação', 'Calouro', 'Coeficiente de rendimento absoluto', 'Data de ingresso', 'Data de nascimento', 'Forma de ingresso', 'Mudou curso (mesmo campus)', 'Mudou curso (outro campus)', 'Município', 'Município (SISU)', 'Nota ENEM Humanas', 'Nota ENEM Liguagem', 'Nota ENEM Matemática', 'Nota ENEM Natureza', 'Nota Final SISU', 'País de nascimento', 'Provável jubilamento', 'Regime de ensino', 'Retenção parcial', 'Retenção total', 'Situação atual', 'Tipo de cota', 'UF', 'UF (SISU)', 'Campus_original', 'Sede_original', 'Nível de ensino_original', 'Grau_original', 'Periodicidade_original', 'Funcionamento_original', 'Curso_original', 'Turno_original', 'Gênero_original', 'Nome_original', 'Ano/semestre da situação_original', 'Calouro_original', 'Data de ingresso_original', 'Data de nascimento_original', 'Forma de ingresso_original', 'Mudou curso (mesmo campus)_original', 'Mudou curso (outro campus)_original', 'Município_original', 'Município (SISU)_original', 'País de nascimento_original', 'Provável jubilamento_original', 'Regime de ensino_original', 'Retenção parcial_original', 'Retenção total_original', 'Situação atual_original', 'Tipo de cota_original', 'UF_original', 'UF (SISU)_original']
+2025-07-13 14:59:25,500 - ml_predictor - WARNING - Removendo 62 colunas não numéricas antes da verificação de constantes: ['Campus', 'Sede', 'Nível de ensino', 'Grau', 'Periodicidade', 'Funcionamento', 'Curso', 'Turno', 'Gênero', 'Nome', 'Ano/semestre da situação', 'Calouro', 'Coeficiente de rendimento absoluto', 'Data de ingresso', 'Data de nascimento', 'Forma de ingresso', 'Mudou curso (mesmo campus)', 'Mudou curso (outro campus)', 'Município', 'Município (SISU)', 'Nota ENEM Humanas', 'Nota ENEM Liguagem', 'Nota ENEM Matemática', 'Nota ENEM Natureza', 'Nota Final SISU', 'País de nascimento', 'Provável jubilamento', 'Regime de ensino', 'Retenção parcial', 'Retenção total', 'Situação atual', 'Tipo de cota', 'UF', 'UF (SISU)', 'Campus_original', 'Sede_original', 'Nível de ensino_original', 'Grau_original', 'Periodicidade_original', 'Funcionamento_original', 'Curso_original', 'Turno_original', 'Gênero_original', 'Nome_original', 'Ano/semestre da situação_original', 'Calouro_original', 'Data de ingresso_original', 'Data de nascimento_original', 'Forma de ingresso_original', 'Mudou curso (mesmo campus)_original', 'Mudou curso (outro campus)_original', 'Município_original', 'Município (SISU)_original', 'País de nascimento_original', 'Provável jubilamento_original', 'Regime de ensino_original', 'Retenção parcial_original', 'Retenção total_original', 'Situação atual_original', 'Tipo de cota_original', 'UF_original', 'UF (SISU)_original']
+2025-07-13 14:59:25,503 - ml_predictor - WARNING - Substituindo valores NaN pela média das colunas antes da verificação de constantes
+2025-07-13 14:59:25,503 - ml_predictor - WARNING - Substituindo valores NaN pela média das colunas antes da verificação de constantes
+2025-07-13 14:59:25,509 - ml_predictor - INFO - Features removidas por baixa variância: {'Ordem ingresso no curso', 'Nr de entradas em outros cursos de graduação', 'Nr de entradas no mesmo curso'}
+2025-07-13 14:59:25,509 - ml_predictor - INFO - Features removidas por baixa variância: {'Ordem ingresso no curso', 'Nr de entradas em outros cursos de graduação', 'Nr de entradas no mesmo curso'}
+2025-07-13 14:59:25,510 - ml_predictor - INFO - Após remoção de constantes: 14 features
+2025-07-13 14:59:25,510 - ml_predictor - INFO - Após remoção de constantes: 14 features
+2025-07-13 14:59:25,512 - ml_predictor - INFO - Realizando imputação de valores ausentes com estratégia 'mean'
+2025-07-13 14:59:25,512 - ml_predictor - INFO - Realizando imputação de valores ausentes com estratégia 'mean'
+2025-07-13 14:59:25,515 - ml_predictor - INFO - Não há valores ausentes para imputar
+2025-07-13 14:59:25,515 - ml_predictor - INFO - Não há valores ausentes para imputar
+2025-07-13 14:59:25,516 - ml_predictor - INFO - Removendo features correlacionadas com threshold 0.9
+2025-07-13 14:59:25,516 - ml_predictor - INFO - Removendo features correlacionadas com threshold 0.9
+2025-07-13 14:59:25,523 - ml_predictor - INFO - Removendo 2 features por alta correlação: ['Ano de ingresso', 'Período']
+2025-07-13 14:59:25,523 - ml_predictor - INFO - Removendo 2 features por alta correlação: ['Ano de ingresso', 'Período']
+2025-07-13 14:59:25,524 - ml_predictor - INFO - Balanceamento de classes não aplicado (desativado na configuração)
+2025-07-13 14:59:25,524 - ml_predictor - INFO - Balanceamento de classes não aplicado (desativado na configuração)
+2025-07-13 14:59:25,524 - ml_predictor - INFO - Iniciando treinamento e teste com algoritmo dt, seed 145
+2025-07-13 14:59:25,524 - ml_predictor - INFO - Iniciando treinamento e teste com algoritmo dt, seed 145
+2025-07-13 14:59:25,684 - ml_predictor - INFO - Treinamento concluído com sucesso. Acurácia média: 0.8767
+2025-07-13 14:59:25,684 - ml_predictor - INFO - Treinamento concluído com sucesso. Acurácia média: 0.8767
+2025-07-13 14:59:25,912 - ml_predictor - INFO - Experimento concluído com sucesso: dados_atuais_listagem_nominal-dv, dt
+2025-07-13 14:59:25,912 - ml_predictor - INFO - Experimento concluído com sucesso: dados_atuais_listagem_nominal-dv, dt
+2025-07-13 14:59:25,914 - ml_predictor - INFO - Carregando dataset: datasets\dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:59:25,914 - ml_predictor - INFO - Carregando dataset: datasets\dados_atuais_listagem_nominal-dv.csv
+2025-07-13 14:59:25,952 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:59:25,952 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 14:59:25,954 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:59:25,954 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 14:59:25,955 - ml_predictor - INFO - Executando experimento: dados_atuais_listagem_nominal-dv, rf, corr=0.9, const=0.1, seed=145
+2025-07-13 14:59:25,955 - ml_predictor - INFO - Executando experimento: dados_atuais_listagem_nominal-dv, rf, corr=0.9, const=0.1, seed=145
+2025-07-13 14:59:25,957 - ml_predictor - INFO - Iniciando pré-processamento do dataset dados_atuais_listagem_nominal-dv
+2025-07-13 14:59:25,957 - ml_predictor - INFO - Iniciando pré-processamento do dataset dados_atuais_listagem_nominal-dv
+2025-07-13 14:59:25,964 - ml_predictor - INFO - Removendo 4 colunas com mais de 50% de valores ausentes
+2025-07-13 14:59:25,964 - ml_predictor - INFO - Removendo 4 colunas com mais de 50% de valores ausentes
+2025-07-13 14:59:26,147 - ml_predictor - INFO - Processadas 28 colunas categóricas
+2025-07-13 14:59:26,147 - ml_predictor - INFO - Processadas 28 colunas categóricas
+2025-07-13 14:59:26,148 - ml_predictor - INFO - Pré-processamento concluído: 6446 amostras, 79 features
+2025-07-13 14:59:26,148 - ml_predictor - INFO - Pré-processamento concluído: 6446 amostras, 79 features
+2025-07-13 14:59:26,149 - ml_predictor - INFO - Removendo features constantes com threshold 0.1
+2025-07-13 14:59:26,149 - ml_predictor - INFO - Removendo features constantes com threshold 0.1
+2025-07-13 14:59:26,154 - ml_predictor - WARNING - Removendo 62 colunas não numéricas antes da verificação de constantes: ['Campus', 'Sede', 'Nível de ensino', 'Grau', 'Periodicidade', 'Funcionamento', 'Curso', 'Turno', 'Gênero', 'Nome', 'Ano/semestre da situação', 'Calouro', 'Coeficiente de rendimento absoluto', 'Data de ingresso', 'Data de nascimento', 'Forma de ingresso', 'Mudou curso (mesmo campus)', 'Mudou curso (outro campus)', 'Município', 'Município (SISU)', 'Nota ENEM Humanas', 'Nota ENEM Liguagem', 'Nota ENEM Matemática', 'Nota ENEM Natureza', 'Nota Final SISU', 'País de nascimento', 'Provável jubilamento', 'Regime de ensino', 'Retenção parcial', 'Retenção total', 'Situação atual', 'Tipo de cota', 'UF', 'UF (SISU)', 'Campus_original', 'Sede_original', 'Nível de ensino_original', 'Grau_original', 'Periodicidade_original', 'Funcionamento_original', 'Curso_original', 'Turno_original', 'Gênero_original', 'Nome_original', 'Ano/semestre da situação_original', 'Calouro_original', 'Data de ingresso_original', 'Data de nascimento_original', 'Forma de ingresso_original', 'Mudou curso (mesmo campus)_original', 'Mudou curso (outro campus)_original', 'Município_original', 'Município (SISU)_original', 'País de nascimento_original', 'Provável jubilamento_original', 'Regime de ensino_original', 'Retenção parcial_original', 'Retenção total_original', 'Situação atual_original', 'Tipo de cota_original', 'UF_original', 'UF (SISU)_original']
+2025-07-13 14:59:26,154 - ml_predictor - WARNING - Removendo 62 colunas não numéricas antes da verificação de constantes: ['Campus', 'Sede', 'Nível de ensino', 'Grau', 'Periodicidade', 'Funcionamento', 'Curso', 'Turno', 'Gênero', 'Nome', 'Ano/semestre da situação', 'Calouro', 'Coeficiente de rendimento absoluto', 'Data de ingresso', 'Data de nascimento', 'Forma de ingresso', 'Mudou curso (mesmo campus)', 'Mudou curso (outro campus)', 'Município', 'Município (SISU)', 'Nota ENEM Humanas', 'Nota ENEM Liguagem', 'Nota ENEM Matemática', 'Nota ENEM Natureza', 'Nota Final SISU', 'País de nascimento', 'Provável jubilamento', 'Regime de ensino', 'Retenção parcial', 'Retenção total', 'Situação atual', 'Tipo de cota', 'UF', 'UF (SISU)', 'Campus_original', 'Sede_original', 'Nível de ensino_original', 'Grau_original', 'Periodicidade_original', 'Funcionamento_original', 'Curso_original', 'Turno_original', 'Gênero_original', 'Nome_original', 'Ano/semestre da situação_original', 'Calouro_original', 'Data de ingresso_original', 'Data de nascimento_original', 'Forma de ingresso_original', 'Mudou curso (mesmo campus)_original', 'Mudou curso (outro campus)_original', 'Município_original', 'Município (SISU)_original', 'País de nascimento_original', 'Provável jubilamento_original', 'Regime de ensino_original', 'Retenção parcial_original', 'Retenção total_original', 'Situação atual_original', 'Tipo de cota_original', 'UF_original', 'UF (SISU)_original']
+2025-07-13 14:59:26,156 - ml_predictor - WARNING - Substituindo valores NaN pela média das colunas antes da verificação de constantes
+2025-07-13 14:59:26,156 - ml_predictor - WARNING - Substituindo valores NaN pela média das colunas antes da verificação de constantes
+2025-07-13 14:59:26,163 - ml_predictor - INFO - Features removidas por baixa variância: {'Ordem ingresso no curso', 'Nr de entradas em outros cursos de graduação', 'Nr de entradas no mesmo curso'}
+2025-07-13 14:59:26,163 - ml_predictor - INFO - Features removidas por baixa variância: {'Ordem ingresso no curso', 'Nr de entradas em outros cursos de graduação', 'Nr de entradas no mesmo curso'}
+2025-07-13 14:59:26,164 - ml_predictor - INFO - Após remoção de constantes: 14 features
+2025-07-13 14:59:26,164 - ml_predictor - INFO - Após remoção de constantes: 14 features
+2025-07-13 14:59:26,165 - ml_predictor - INFO - Realizando imputação de valores ausentes com estratégia 'mean'
+2025-07-13 14:59:26,165 - ml_predictor - INFO - Realizando imputação de valores ausentes com estratégia 'mean'
+2025-07-13 14:59:26,167 - ml_predictor - INFO - Não há valores ausentes para imputar
+2025-07-13 14:59:26,167 - ml_predictor - INFO - Não há valores ausentes para imputar
+2025-07-13 14:59:26,167 - ml_predictor - INFO - Removendo features correlacionadas com threshold 0.9
+2025-07-13 14:59:26,167 - ml_predictor - INFO - Removendo features correlacionadas com threshold 0.9
+2025-07-13 14:59:26,173 - ml_predictor - INFO - Removendo 2 features por alta correlação: ['Ano de ingresso', 'Período']
+2025-07-13 14:59:26,173 - ml_predictor - INFO - Removendo 2 features por alta correlação: ['Ano de ingresso', 'Período']
+2025-07-13 14:59:26,175 - ml_predictor - INFO - Balanceamento de classes não aplicado (desativado na configuração)
+2025-07-13 14:59:26,175 - ml_predictor - INFO - Balanceamento de classes não aplicado (desativado na configuração)
+2025-07-13 14:59:26,175 - ml_predictor - INFO - Iniciando treinamento e teste com algoritmo rf, seed 145
+2025-07-13 14:59:26,175 - ml_predictor - INFO - Iniciando treinamento e teste com algoritmo rf, seed 145
+2025-07-13 14:59:28,931 - ml_predictor - INFO - Treinamento concluído com sucesso. Acurácia média: 0.9071
+2025-07-13 14:59:28,931 - ml_predictor - INFO - Treinamento concluído com sucesso. Acurácia média: 0.9071
+2025-07-13 14:59:29,630 - ml_predictor - INFO - Experimento concluído com sucesso: dados_atuais_listagem_nominal-dv, rf
+2025-07-13 14:59:29,630 - ml_predictor - INFO - Experimento concluído com sucesso: dados_atuais_listagem_nominal-dv, rf
+2025-07-13 14:59:29,633 - ml_predictor - INFO - Experimentos concluídos em 4.90 segundos. 2 bem-sucedidos, 0 com erro.
+2025-07-13 14:59:29,633 - ml_predictor - INFO - Experimentos concluídos em 4.90 segundos. 2 bem-sucedidos, 0 com erro.
+2025-07-13 14:59:29,633 - ml_predictor - INFO - Total de 2 experimentos concluídos com sucesso
+2025-07-13 14:59:29,633 - ml_predictor - INFO - Total de 2 experimentos concluídos com sucesso
+2025-07-13 14:59:29,634 - ml_predictor - INFO - Média de acurácia: 0.8919
+2025-07-13 14:59:29,634 - ml_predictor - INFO - Média de acurácia: 0.8919
+2025-07-13 14:59:29,634 - ml_predictor - INFO - Média de acurácia balanceada: 0.8869
+2025-07-13 14:59:29,634 - ml_predictor - INFO - Média de acurácia balanceada: 0.8869
+2025-07-13 14:59:29,635 - ml_predictor - INFO - Média de F1-score: 0.8644
+2025-07-13 14:59:29,635 - ml_predictor - INFO - Média de F1-score: 0.8644
+2025-07-13 14:59:29,635 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 14:59:29,635 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 14:59:29,635 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 14:59:29,635 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 14:59:29,636 - ml_predictor - INFO -   Algoritmo: Random Forest
+2025-07-13 14:59:29,636 - ml_predictor - INFO -   Algoritmo: Random Forest
+2025-07-13 14:59:29,636 - ml_predictor - INFO -   Threshold de correlação: 0.9
+2025-07-13 14:59:29,636 - ml_predictor - INFO -   Threshold de correlação: 0.9
+2025-07-13 14:59:29,636 - ml_predictor - INFO -   Threshold de constantes: 0.1
+2025-07-13 14:59:29,636 - ml_predictor - INFO -   Threshold de constantes: 0.1
+2025-07-13 14:59:29,637 - ml_predictor - INFO -   Seed: 145
+2025-07-13 14:59:29,637 - ml_predictor - INFO -   Seed: 145
+2025-07-13 14:59:29,637 - ml_predictor - INFO -   Acurácia: 0.9071
+2025-07-13 14:59:29,637 - ml_predictor - INFO -   Acurácia: 0.9071
+2025-07-13 14:59:29,638 - ml_predictor - INFO -   Acurácia balanceada: 0.9023
+2025-07-13 14:59:29,638 - ml_predictor - INFO -   Acurácia balanceada: 0.9023
+2025-07-13 14:59:29,640 - ml_predictor - INFO -   F1-score: 0.8831
+2025-07-13 14:59:29,640 - ml_predictor - INFO -   F1-score: 0.8831
+2025-07-13 14:59:29,641 - ml_predictor - INFO -   Precisão: 0.8878
+2025-07-13 14:59:29,641 - ml_predictor - INFO -   Precisão: 0.8878
+2025-07-13 14:59:29,641 - ml_predictor - INFO -   Recall: 0.8784
+2025-07-13 14:59:29,641 - ml_predictor - INFO -   Recall: 0.8784
+2025-07-13 14:59:29,646 - ml_predictor - INFO - Resultados salvos em results/experiments\results_20250713_145929.csv
+2025-07-13 14:59:29,646 - ml_predictor - INFO - Resultados salvos em results/experiments\results_20250713_145929.csv
+2025-07-13 14:59:29,745 - ml_predictor - INFO - Resultados completos salvos em results/experiments\full_results_20250713_145929.json
+2025-07-13 14:59:29,745 - ml_predictor - INFO - Resultados completos salvos em results/experiments\full_results_20250713_145929.json
+2025-07-13 14:59:30,855 - ml_predictor - INFO - Relatório consolidado gerado: results/reports/report_20250713_145929.png
+2025-07-13 14:59:30,855 - ml_predictor - INFO - Relatório consolidado gerado: results/reports/report_20250713_145929.png
+2025-07-13 14:59:30,856 - ml_predictor - INFO - Relatório consolidado gerado em results/reports/report_20250713_145929.png
+2025-07-13 14:59:30,856 - ml_predictor - INFO - Relatório consolidado gerado em results/reports/report_20250713_145929.png
+2025-07-13 14:59:30,858 - ml_predictor - INFO - Resumo dos experimentos gerado: results/reports/summary_20250713_145930.json
+2025-07-13 14:59:30,858 - ml_predictor - INFO - Resumo dos experimentos gerado: results/reports/summary_20250713_145930.json
+2025-07-13 14:59:31,049 - ml_predictor - INFO - Relatório HTML gerado: results/reports/report_20250713_145930.html
+2025-07-13 14:59:31,049 - ml_predictor - INFO - Relatório HTML gerado: results/reports/report_20250713_145930.html
+2025-07-13 14:59:31,050 - ml_predictor - INFO - Resumo dos experimentos gerado em results/reports/summary_20250713_145930.json
+2025-07-13 14:59:31,050 - ml_predictor - INFO - Resumo dos experimentos gerado em results/reports/summary_20250713_145930.json
+2025-07-13 14:59:31,051 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 14:59:31,051 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 15:02:39,462 - ml_predictor - INFO - Iniciando execução de experimentos
+2025-07-13 15:02:39,464 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 15:02:39,464 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 15:02:39,465 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 15:02:39,465 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 15:02:39,465 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 15:02:39,465 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 15:02:39,466 - ml_predictor - INFO - Carregando dataset: datasets\dados_atuais_listagem_nominal-dv.csv
+2025-07-13 15:02:39,466 - ml_predictor - INFO - Carregando dataset: datasets\dados_atuais_listagem_nominal-dv.csv
+2025-07-13 15:02:39,504 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 15:02:39,504 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 15:02:39,506 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 15:02:39,506 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 15:02:39,901 - ml_predictor - INFO - Total de 640 experimentos a serem executados
+2025-07-13 15:02:39,901 - ml_predictor - INFO - Total de 640 experimentos a serem executados
+2025-07-13 15:02:39,901 - ml_predictor - INFO - Executando experimentos em paralelo com 11 processos
+2025-07-13 15:02:39,901 - ml_predictor - INFO - Executando experimentos em paralelo com 11 processos
+2025-07-13 15:05:09,476 - ml_predictor - INFO - Experimentos concluídos em 150.01 segundos. 640 bem-sucedidos, 0 com erro.
+2025-07-13 15:05:09,476 - ml_predictor - INFO - Experimentos concluídos em 150.01 segundos. 640 bem-sucedidos, 0 com erro.
+2025-07-13 15:05:09,477 - ml_predictor - INFO - Total de 640 experimentos concluídos com sucesso
+2025-07-13 15:05:09,477 - ml_predictor - INFO - Total de 640 experimentos concluídos com sucesso
+2025-07-13 15:05:09,478 - ml_predictor - INFO - Média de acurácia: 0.8091
+2025-07-13 15:05:09,478 - ml_predictor - INFO - Média de acurácia: 0.8091
+2025-07-13 15:05:09,479 - ml_predictor - INFO - Média de acurácia balanceada: 0.8004
+2025-07-13 15:05:09,479 - ml_predictor - INFO - Média de acurácia balanceada: 0.8004
+2025-07-13 15:05:09,479 - ml_predictor - INFO - Média de F1-score: 0.7536
+2025-07-13 15:05:09,479 - ml_predictor - INFO - Média de F1-score: 0.7536
+2025-07-13 15:05:09,480 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 15:05:09,480 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 15:05:09,480 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 15:05:09,480 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 15:05:09,480 - ml_predictor - INFO -   Algoritmo: Random Forest
+2025-07-13 15:05:09,480 - ml_predictor - INFO -   Algoritmo: Random Forest
+2025-07-13 15:05:09,480 - ml_predictor - INFO -   Threshold de correlação: 0.95
+2025-07-13 15:05:09,480 - ml_predictor - INFO -   Threshold de correlação: 0.95
+2025-07-13 15:05:09,481 - ml_predictor - INFO -   Threshold de constantes: 0.1
+2025-07-13 15:05:09,481 - ml_predictor - INFO -   Threshold de constantes: 0.1
+2025-07-13 15:05:09,481 - ml_predictor - INFO -   Seed: 49
+2025-07-13 15:05:09,481 - ml_predictor - INFO -   Seed: 49
+2025-07-13 15:05:09,481 - ml_predictor - INFO -   Acurácia: 0.9175
+2025-07-13 15:05:09,481 - ml_predictor - INFO -   Acurácia: 0.9175
+2025-07-13 15:05:09,481 - ml_predictor - INFO -   Acurácia balanceada: 0.9133
+2025-07-13 15:05:09,481 - ml_predictor - INFO -   Acurácia balanceada: 0.9133
+2025-07-13 15:05:09,482 - ml_predictor - INFO -   F1-score: 0.8963
+2025-07-13 15:05:09,482 - ml_predictor - INFO -   F1-score: 0.8963
+2025-07-13 15:05:09,482 - ml_predictor - INFO -   Precisão: 0.9000
+2025-07-13 15:05:09,482 - ml_predictor - INFO -   Precisão: 0.9000
+2025-07-13 15:05:09,483 - ml_predictor - INFO -   Recall: 0.8928
+2025-07-13 15:05:09,483 - ml_predictor - INFO -   Recall: 0.8928
+2025-07-13 15:05:09,497 - ml_predictor - INFO - Resultados salvos em results/experiments\results_20250713_150509.csv
+2025-07-13 15:05:09,497 - ml_predictor - INFO - Resultados salvos em results/experiments\results_20250713_150509.csv
+2025-07-13 15:05:35,588 - ml_predictor - INFO - Resultados completos salvos em results/experiments\full_results_20250713_150509.json
+2025-07-13 15:05:35,588 - ml_predictor - INFO - Resultados completos salvos em results/experiments\full_results_20250713_150509.json
+2025-07-13 15:05:36,863 - ml_predictor - INFO - Relatório consolidado gerado: results/reports/report_20250713_150535.png
+2025-07-13 15:05:36,863 - ml_predictor - INFO - Relatório consolidado gerado: results/reports/report_20250713_150535.png
+2025-07-13 15:05:36,864 - ml_predictor - INFO - Relatório consolidado gerado em results/reports/report_20250713_150535.png
+2025-07-13 15:05:36,864 - ml_predictor - INFO - Relatório consolidado gerado em results/reports/report_20250713_150535.png
+2025-07-13 15:05:36,868 - ml_predictor - INFO - Resumo dos experimentos gerado: results/reports/summary_20250713_150536.json
+2025-07-13 15:05:36,868 - ml_predictor - INFO - Resumo dos experimentos gerado: results/reports/summary_20250713_150536.json
+2025-07-13 15:05:37,319 - ml_predictor - INFO - Relatório HTML gerado: results/reports/report_20250713_150536.html
+2025-07-13 15:05:37,319 - ml_predictor - INFO - Relatório HTML gerado: results/reports/report_20250713_150536.html
+2025-07-13 15:05:37,319 - ml_predictor - INFO - Resumo dos experimentos gerado em results/reports/summary_20250713_150536.json
+2025-07-13 15:05:37,319 - ml_predictor - INFO - Resumo dos experimentos gerado em results/reports/summary_20250713_150536.json
+2025-07-13 15:05:37,344 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 15:05:37,344 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 15:18:36,336 - ml_predictor - INFO - Iniciando execução de experimentos
+2025-07-13 15:18:36,338 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 15:18:36,338 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 15:18:36,339 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 15:18:36,339 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 15:18:36,339 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 15:18:36,339 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 15:18:36,339 - ml_predictor - INFO - Carregando dataset: datasets\dados_atuais_listagem_nominal-dv.csv
+2025-07-13 15:18:36,339 - ml_predictor - INFO - Carregando dataset: datasets\dados_atuais_listagem_nominal-dv.csv
+2025-07-13 15:18:36,377 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 15:18:36,377 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 15:18:36,380 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 15:18:36,380 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 15:18:36,382 - ml_predictor - INFO - Total de 640 experimentos a serem executados
+2025-07-13 15:18:36,382 - ml_predictor - INFO - Total de 640 experimentos a serem executados
+2025-07-13 15:18:36,382 - ml_predictor - INFO - Executando experimentos em paralelo com 11 processos
+2025-07-13 15:18:36,382 - ml_predictor - INFO - Executando experimentos em paralelo com 11 processos
+2025-07-13 15:20:21,370 - ml_predictor - INFO - Experimentos concluídos em 105.03 segundos. 640 bem-sucedidos, 0 com erro.
+2025-07-13 15:20:21,370 - ml_predictor - INFO - Experimentos concluídos em 105.03 segundos. 640 bem-sucedidos, 0 com erro.
+2025-07-13 15:20:21,371 - ml_predictor - INFO - Total de 640 experimentos concluídos com sucesso
+2025-07-13 15:20:21,371 - ml_predictor - INFO - Total de 640 experimentos concluídos com sucesso
+2025-07-13 15:20:21,371 - ml_predictor - INFO - Média de acurácia: 0.8091
+2025-07-13 15:20:21,371 - ml_predictor - INFO - Média de acurácia: 0.8091
+2025-07-13 15:20:21,372 - ml_predictor - INFO - Média de acurácia balanceada: 0.8004
+2025-07-13 15:20:21,372 - ml_predictor - INFO - Média de acurácia balanceada: 0.8004
+2025-07-13 15:20:21,372 - ml_predictor - INFO - Média de F1-score: 0.7536
+2025-07-13 15:20:21,372 - ml_predictor - INFO - Média de F1-score: 0.7536
+2025-07-13 15:20:21,372 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 15:20:21,372 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 15:20:21,372 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 15:20:21,372 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 15:20:21,373 - ml_predictor - INFO -   Algoritmo: Random Forest
+2025-07-13 15:20:21,373 - ml_predictor - INFO -   Algoritmo: Random Forest
+2025-07-13 15:20:21,373 - ml_predictor - INFO -   Threshold de correlação: 0.95
+2025-07-13 15:20:21,373 - ml_predictor - INFO -   Threshold de correlação: 0.95
+2025-07-13 15:20:21,373 - ml_predictor - INFO -   Threshold de constantes: 0.1
+2025-07-13 15:20:21,373 - ml_predictor - INFO -   Threshold de constantes: 0.1
+2025-07-13 15:20:21,374 - ml_predictor - INFO -   Seed: 49
+2025-07-13 15:20:21,374 - ml_predictor - INFO -   Seed: 49
+2025-07-13 15:20:21,374 - ml_predictor - INFO -   Acurácia: 0.9175
+2025-07-13 15:20:21,374 - ml_predictor - INFO -   Acurácia: 0.9175
+2025-07-13 15:20:21,374 - ml_predictor - INFO -   Acurácia balanceada: 0.9133
+2025-07-13 15:20:21,374 - ml_predictor - INFO -   Acurácia balanceada: 0.9133
+2025-07-13 15:20:21,374 - ml_predictor - INFO -   F1-score: 0.8963
+2025-07-13 15:20:21,374 - ml_predictor - INFO -   F1-score: 0.8963
+2025-07-13 15:20:21,374 - ml_predictor - INFO -   Precisão: 0.9000
+2025-07-13 15:20:21,374 - ml_predictor - INFO -   Precisão: 0.9000
+2025-07-13 15:20:21,375 - ml_predictor - INFO -   Recall: 0.8928
+2025-07-13 15:20:21,375 - ml_predictor - INFO -   Recall: 0.8928
+2025-07-13 15:20:21,414 - ml_predictor - INFO - Resultados salvos em CSV: results/experiments\results_20250713_152021.csv
+2025-07-13 15:20:21,414 - ml_predictor - INFO - Resultados salvos em CSV: results/experiments\results_20250713_152021.csv
+2025-07-13 15:20:45,748 - ml_predictor - INFO - Resultados completos salvos em JSON: results/experiments\full_results_20250713_152021.json
+2025-07-13 15:20:45,748 - ml_predictor - INFO - Resultados completos salvos em JSON: results/experiments\full_results_20250713_152021.json
+2025-07-13 15:20:47,249 - ml_predictor - INFO - Relatório(s) consolidado(s) gerado(s): results/reports/report_20250713_152045.pdf
+2025-07-13 15:20:47,249 - ml_predictor - INFO - Relatório(s) consolidado(s) gerado(s): results/reports/report_20250713_152045.pdf
+2025-07-13 15:20:47,249 - ml_predictor - INFO - Relatório consolidado gerado em results/reports/report_20250713_152045.pdf
+2025-07-13 15:20:47,249 - ml_predictor - INFO - Relatório consolidado gerado em results/reports/report_20250713_152045.pdf
+2025-07-13 15:20:47,253 - ml_predictor - INFO - Resumo dos experimentos gerado em JSON: results/reports/summary_20250713_152047.json
+2025-07-13 15:20:47,253 - ml_predictor - INFO - Resumo dos experimentos gerado em JSON: results/reports/summary_20250713_152047.json
+2025-07-13 15:20:47,447 - ml_predictor - INFO - Relatório HTML gerado: results/reports/report_20250713_152047.html
+2025-07-13 15:20:47,447 - ml_predictor - INFO - Relatório HTML gerado: results/reports/report_20250713_152047.html
+2025-07-13 15:20:47,447 - ml_predictor - INFO - Resumo dos experimentos gerado em results/reports/summary_20250713_152047.json
+2025-07-13 15:20:47,447 - ml_predictor - INFO - Resumo dos experimentos gerado em results/reports/summary_20250713_152047.json
+2025-07-13 15:20:47,448 - ml_predictor - INFO - Resumo dos experimentos gerado em results/reports/report_20250713_152047.html
+2025-07-13 15:20:47,448 - ml_predictor - INFO - Resumo dos experimentos gerado em results/reports/report_20250713_152047.html
+2025-07-13 15:20:47,470 - ml_predictor - INFO - Arquivos gerados:
+2025-07-13 15:20:47,470 - ml_predictor - INFO - Arquivos gerados:
+2025-07-13 15:20:47,470 - ml_predictor - INFO -   - results/experiments\results_20250713_152021.csv
+2025-07-13 15:20:47,470 - ml_predictor - INFO -   - results/experiments\results_20250713_152021.csv
+2025-07-13 15:20:47,471 - ml_predictor - INFO -   - results/experiments\full_results_20250713_152021.json
+2025-07-13 15:20:47,471 - ml_predictor - INFO -   - results/experiments\full_results_20250713_152021.json
+2025-07-13 15:20:47,471 - ml_predictor - INFO -   - results/reports/report_20250713_152045.pdf
+2025-07-13 15:20:47,471 - ml_predictor - INFO -   - results/reports/report_20250713_152045.pdf
+2025-07-13 15:20:47,471 - ml_predictor - INFO -   - results/reports/summary_20250713_152047.json
+2025-07-13 15:20:47,471 - ml_predictor - INFO -   - results/reports/summary_20250713_152047.json
+2025-07-13 15:20:47,472 - ml_predictor - INFO -   - results/reports/report_20250713_152047.html
+2025-07-13 15:20:47,472 - ml_predictor - INFO -   - results/reports/report_20250713_152047.html
+2025-07-13 15:20:47,472 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 15:20:47,472 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 15:26:27,759 - ml_predictor - INFO - Iniciando execução de experimentos
+2025-07-13 15:26:27,761 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 15:26:27,761 - ml_predictor - INFO - Inicializando StudentDropoutPredictor
+2025-07-13 15:26:27,761 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 15:26:27,761 - ml_predictor - INFO - Carregando modelos de machine learning
+2025-07-13 15:26:27,762 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 15:26:27,762 - ml_predictor - INFO - Iniciando experimentos do tipo 'full'
+2025-07-13 15:26:27,762 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 15:26:27,762 - ml_predictor - INFO - Carregando dataset: datasets/dados_atuais_listagem_nominal-dv.csv
+2025-07-13 15:26:27,811 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 15:26:27,811 - ml_predictor - INFO - Criando coluna 'target' a partir de 'Situação atual'
+2025-07-13 15:26:27,813 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 15:26:27,813 - ml_predictor - INFO - Dataset carregado: dados_atuais_listagem_nominal-dv com 6446 amostras e 56 colunas
+2025-07-13 15:26:28,136 - ml_predictor - INFO - Total de 16 experimentos a serem executados
+2025-07-13 15:26:28,136 - ml_predictor - INFO - Total de 16 experimentos a serem executados
+2025-07-13 15:26:28,136 - ml_predictor - INFO - Executando experimentos em paralelo com 11 processos
+2025-07-13 15:26:28,136 - ml_predictor - INFO - Executando experimentos em paralelo com 11 processos
+2025-07-13 15:26:36,647 - ml_predictor - INFO - Experimentos concluídos em 8.88 segundos. 16 bem-sucedidos, 0 com erro.
+2025-07-13 15:26:36,647 - ml_predictor - INFO - Experimentos concluídos em 8.88 segundos. 16 bem-sucedidos, 0 com erro.
+2025-07-13 15:26:36,648 - ml_predictor - INFO - Total de 16 experimentos concluídos com sucesso
+2025-07-13 15:26:36,648 - ml_predictor - INFO - Total de 16 experimentos concluídos com sucesso
+2025-07-13 15:26:36,649 - ml_predictor - INFO - Média de acurácia: 0.8861
+2025-07-13 15:26:36,649 - ml_predictor - INFO - Média de acurácia: 0.8861
+2025-07-13 15:26:36,649 - ml_predictor - INFO - Média de acurácia balanceada: 0.8808
+2025-07-13 15:26:36,649 - ml_predictor - INFO - Média de acurácia balanceada: 0.8808
+2025-07-13 15:26:36,650 - ml_predictor - INFO - Média de F1-score: 0.8571
+2025-07-13 15:26:36,650 - ml_predictor - INFO - Média de F1-score: 0.8571
+2025-07-13 15:26:36,650 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 15:26:36,650 - ml_predictor - INFO - Melhor resultado (F1-score):
+2025-07-13 15:26:36,650 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 15:26:36,650 - ml_predictor - INFO -   Dataset: dados_atuais_listagem_nominal-dv
+2025-07-13 15:26:36,650 - ml_predictor - INFO -   Algoritmo: Random Forest
+2025-07-13 15:26:36,650 - ml_predictor - INFO -   Algoritmo: Random Forest
+2025-07-13 15:26:36,650 - ml_predictor - INFO -   Threshold de correlação: 0.9
+2025-07-13 15:26:36,650 - ml_predictor - INFO -   Threshold de correlação: 0.9
+2025-07-13 15:26:36,651 - ml_predictor - INFO -   Threshold de constantes: 0.1
+2025-07-13 15:26:36,651 - ml_predictor - INFO -   Threshold de constantes: 0.1
+2025-07-13 15:26:36,651 - ml_predictor - INFO -   Seed: 278
+2025-07-13 15:26:36,651 - ml_predictor - INFO -   Seed: 278
+2025-07-13 15:26:36,651 - ml_predictor - INFO -   Acurácia: 0.9086
+2025-07-13 15:26:36,651 - ml_predictor - INFO -   Acurácia: 0.9086
+2025-07-13 15:26:36,651 - ml_predictor - INFO -   Acurácia balanceada: 0.9035
+2025-07-13 15:26:36,651 - ml_predictor - INFO -   Acurácia balanceada: 0.9035
+2025-07-13 15:26:36,652 - ml_predictor - INFO -   F1-score: 0.8848
+2025-07-13 15:26:36,652 - ml_predictor - INFO -   F1-score: 0.8848
+2025-07-13 15:26:36,652 - ml_predictor - INFO -   Precisão: 0.8919
+2025-07-13 15:26:36,652 - ml_predictor - INFO -   Precisão: 0.8919
+2025-07-13 15:26:36,652 - ml_predictor - INFO -   Recall: 0.8781
+2025-07-13 15:26:36,652 - ml_predictor - INFO -   Recall: 0.8781
+2025-07-13 15:26:36,655 - ml_predictor - INFO - Resultados salvos em CSV: results/experiments\results_20250713_152636.csv
+2025-07-13 15:26:36,655 - ml_predictor - INFO - Resultados salvos em CSV: results/experiments\results_20250713_152636.csv
+2025-07-13 15:26:37,178 - ml_predictor - INFO - Resultados completos salvos em JSON: results/experiments\full_results_20250713_152636.json
+2025-07-13 15:26:37,178 - ml_predictor - INFO - Resultados completos salvos em JSON: results/experiments\full_results_20250713_152636.json
+2025-07-13 15:26:37,886 - ml_predictor - INFO - Relatório(s) consolidado(s) gerado(s): results/reports/report_20250713_152637.pdf
+2025-07-13 15:26:37,886 - ml_predictor - INFO - Relatório(s) consolidado(s) gerado(s): results/reports/report_20250713_152637.pdf
+2025-07-13 15:26:37,887 - ml_predictor - INFO - Relatório consolidado gerado em results/reports/report_20250713_152637.pdf
+2025-07-13 15:26:37,887 - ml_predictor - INFO - Relatório consolidado gerado em results/reports/report_20250713_152637.pdf
+2025-07-13 15:26:37,890 - ml_predictor - INFO - Resumo dos experimentos gerado em JSON: results/reports/summary_20250713_152637.json
+2025-07-13 15:26:37,890 - ml_predictor - INFO - Resumo dos experimentos gerado em JSON: results/reports/summary_20250713_152637.json
+2025-07-13 15:26:38,037 - ml_predictor - INFO - Relatório HTML gerado: results/reports/report_20250713_152637.html
+2025-07-13 15:26:38,037 - ml_predictor - INFO - Relatório HTML gerado: results/reports/report_20250713_152637.html
+2025-07-13 15:26:38,037 - ml_predictor - INFO - Resumo dos experimentos gerado em results/reports/summary_20250713_152637.json
+2025-07-13 15:26:38,037 - ml_predictor - INFO - Resumo dos experimentos gerado em results/reports/summary_20250713_152637.json
+2025-07-13 15:26:38,037 - ml_predictor - INFO - Resumo dos experimentos gerado em results/reports/report_20250713_152637.html
+2025-07-13 15:26:38,037 - ml_predictor - INFO - Resumo dos experimentos gerado em results/reports/report_20250713_152637.html
+2025-07-13 15:26:38,038 - ml_predictor - INFO - Arquivos gerados:
+2025-07-13 15:26:38,038 - ml_predictor - INFO - Arquivos gerados:
+2025-07-13 15:26:38,039 - ml_predictor - INFO -   - results/experiments\results_20250713_152636.csv
+2025-07-13 15:26:38,039 - ml_predictor - INFO -   - results/experiments\results_20250713_152636.csv
+2025-07-13 15:26:38,039 - ml_predictor - INFO -   - results/experiments\full_results_20250713_152636.json
+2025-07-13 15:26:38,039 - ml_predictor - INFO -   - results/experiments\full_results_20250713_152636.json
+2025-07-13 15:26:38,039 - ml_predictor - INFO -   - results/reports/report_20250713_152637.pdf
+2025-07-13 15:26:38,039 - ml_predictor - INFO -   - results/reports/report_20250713_152637.pdf
+2025-07-13 15:26:38,039 - ml_predictor - INFO -   - results/reports/summary_20250713_152637.json
+2025-07-13 15:26:38,039 - ml_predictor - INFO -   - results/reports/summary_20250713_152637.json
+2025-07-13 15:26:38,040 - ml_predictor - INFO -   - results/reports/report_20250713_152637.html
+2025-07-13 15:26:38,040 - ml_predictor - INFO -   - results/reports/report_20250713_152637.html
+2025-07-13 15:26:38,040 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments
+2025-07-13 15:26:38,040 - ml_predictor - INFO - Execução concluída. Resultados salvos em: results\experiments

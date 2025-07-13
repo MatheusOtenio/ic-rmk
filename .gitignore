@@ -21,3 +21,8 @@ build/
 
 # Arquivo de configuração do Git
 .gitignore
+
+*.pdf
+*.json
+*.log
+*.html

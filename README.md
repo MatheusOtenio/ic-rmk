@@ -43,6 +43,10 @@ Este repositório contém scripts e análises para predição de taxas de evasã
 
 ## Como Usar
 
+```bash
+python run_experiments.py --datasets datasets/ --algorithms dt rf --corr-thresholds 0.8 0.9 --const-thresholds 0.1 0.2 --seeds 145 278
+```
+
 ### Instalação
 
 Instale as dependências necessárias:
