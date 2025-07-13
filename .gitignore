@@ -1,14 +1,23 @@
-venv/ 
+# Ambiente virtual
+venv/
+.venv/
+.env
+
+# Arquivos de dados
 *.csv
-# Arquivos e pastas geradas pelo Python
+
+# Cache e arquivos compilados do Python
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.pdb
-*.egg
-*.egg-info/
+
+# Distribuição e build
 dist/
 build/
-.env
-.venv
+*.egg
+*.egg-info/
+
+# Arquivo de configuração do Git
+.gitignore
