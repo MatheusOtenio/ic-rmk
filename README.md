@@ -15,18 +15,19 @@ Este repositório contém scripts e análises para predição de taxas de evasã
 ### Estrutura do Sistema
 
 ```
-├── data-generator/       # Geração de datasets
 ├── datasets/             # Datasets processados
 ├── ml_predictor/         # Pacote principal
 │   ├── __init__.py       # Inicialização do pacote
 │   ├── config.py         # Configurações centralizadas
 │   ├── predictor.py      # Classe principal
 │   ├── processor.py      # Processamento de dados e experimentos
+│   ├── report.py         # Gerador de relatórios
 │   └── utils.py          # Funções utilitárias
 ├── results/              # Resultados dos experimentos
 │   ├── experiments/      # Métricas e resultados
 │   ├── predictions/      # Predições detalhadas
 │   ├── plots/            # Visualizações
+│   └── reports/          # Relatórios gerados
 │   └── logs/             # Logs de execução
 ├── run_experiments.py    # Script de exemplo para execução de experimentos
 └── requirements.txt      # Dependências do projeto
